@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 200
   m_LinearFogEnd: 400
-  m_AmbientSkyColor: {r: 0.9858889, g: 0.9811852, b: 0.96848524, a: 1}
+  m_AmbientSkyColor: {r: 0.99999344, g: 0.99999106, b: 0.9999874, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 395233332}
-  m_IndirectSpecularColor: {r: 0.43691754, g: 0.48458087, b: 0.5648386, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366756, g: 0.48427194, b: 0.5645252, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -4970,19 +4970,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 443710, guid: 7563027fd27f10e41b2bf18cf161c7da, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 443710, guid: 7563027fd27f10e41b2bf18cf161c7da, type: 3}
       propertyPath: m_LocalScale.x
-      value: 100
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 443710, guid: 7563027fd27f10e41b2bf18cf161c7da, type: 3}
       propertyPath: m_LocalScale.z
-      value: 100
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 443710, guid: 7563027fd27f10e41b2bf18cf161c7da, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 400
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 443710, guid: 7563027fd27f10e41b2bf18cf161c7da, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4990,7 +4990,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 443710, guid: 7563027fd27f10e41b2bf18cf161c7da, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 500
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 443710, guid: 7563027fd27f10e41b2bf18cf161c7da, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6263,7 +6263,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.47549748, g: 0.47549748, b: 0.47549748, a: 1}
+  m_Color: {r: 0.4901886, g: 0.4901886, b: 0.4901886, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -6321,7 +6321,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395233331}
-  m_LocalRotation: {x: 0.06446314, y: 0.6704516, z: -0.7368165, w: 0.05865695}
+  m_LocalRotation: {x: 0.061628457, y: 0.70441604, z: -0.70441604, w: 0.061628457}
   m_LocalPosition: {x: 62.412254, y: 95.829094, z: -6.8794036}
   m_LocalScale: {x: 1, y: 0, z: 1}
   m_Children: []
@@ -27723,6 +27723,7 @@ GameObject:
   - component: {fileID: 1719761522}
   - component: {fileID: 1719761525}
   - component: {fileID: 1719761521}
+  - component: {fileID: 1719761526}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -27859,6 +27860,26 @@ MonoBehaviour:
     debug: 0
   _aoShader: {fileID: 4800000, guid: 65e203e5acda447acbf9dc1ef78c4a39, type: 3}
   _quadMesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1719761526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719761519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 704d27b9a5b954ee0a0d9bc010c245a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _settings:
+    shutterAngle: 265
+    sampleCount: 10
+    frameBlending: 0.2
+  _reconstructionShader: {fileID: 4800000, guid: 7ea8cfee2809541fa81c5ed422ded933,
+    type: 3}
+  _frameBlendingShader: {fileID: 4800000, guid: 83da3aecb8b462f498946f5198cbd58e,
+    type: 3}
 --- !u!1001 &1723776011
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33327,7 +33348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DirectionalLight: {fileID: 395233332}
   Preset: {fileID: 11400000, guid: 0aeb26d932344a046a2671d709b4669d, type: 2}
-  TimeOfDay: 30.9
+  TimeOfDay: 30
 --- !u!1001 &2058302795
 PrefabInstance:
   m_ObjectHideFlags: 0

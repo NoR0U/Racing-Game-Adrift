@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 22
-  productGUID: ca22189d41385a84d99b9a339e643216
+  productGUID: 00000000000000000000000000000000
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -134,7 +134,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.5.3
+  bundleVersion: 0.1
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -673,7 +673,6 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
-    Collab: 0
     UNet: 1
   luminIcon:
     m_Name: 
@@ -691,7 +690,7 @@ PlayerSettings:
   cloudProjectId: a23c0741-cb2b-4a51-a2c4-77d2157e09c1
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Project 1.5 (1)
+  projectName: 
   organizationId: jselman63
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
