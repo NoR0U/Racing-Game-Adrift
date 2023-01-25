@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 22
-  productGUID: 00000000000000000000000000000000
+  productGUID: 79881a148e2bd714e9d51b6a2e79cfb5
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -690,7 +690,7 @@ PlayerSettings:
   cloudProjectId: a23c0741-cb2b-4a51-a2c4-77d2157e09c1
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: Project 1.5 (1)
   organizationId: jselman63
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
