@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 395233332}
-  m_IndirectSpecularColor: {r: 0.4366756, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.5645233, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -5981,8 +5981,8 @@ WheelCollider:
     spring: 90000
     damper: 9000
     targetPosition: 0.85
-  m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0
+  m_SuspensionDistance: 0.2
+  m_ForceAppPointDistance: 0.6
   m_Mass: 25
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -5996,7 +5996,7 @@ WheelCollider:
     m_ExtremumValue: 2
     m_AsymptoteSlip: 1
     m_AsymptoteValue: 1.5
-    m_Stiffness: 2
+    m_Stiffness: 1.8
   m_Enabled: 1
 --- !u!1001 &382516313
 PrefabInstance:
@@ -17141,8 +17141,8 @@ WheelCollider:
     spring: 90000
     damper: 9000
     targetPosition: 0.85
-  m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0
+  m_SuspensionDistance: 0.2
+  m_ForceAppPointDistance: 0.6
   m_Mass: 25
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -17156,7 +17156,7 @@ WheelCollider:
     m_ExtremumValue: 2
     m_AsymptoteSlip: 1
     m_AsymptoteValue: 1.5
-    m_Stiffness: 2
+    m_Stiffness: 1.8
   m_Enabled: 1
 --- !u!1 &1037038127 stripped
 GameObject:
@@ -23329,15 +23329,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 418746, guid: 2194ac0e8cf35fb44853b27ea1b6f897, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 418746, guid: 2194ac0e8cf35fb44853b27ea1b6f897, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 418746, guid: 2194ac0e8cf35fb44853b27ea1b6f897, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 418746, guid: 2194ac0e8cf35fb44853b27ea1b6f897, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -28613,8 +28613,8 @@ WheelCollider:
     spring: 90000
     damper: 9000
     targetPosition: 0.85
-  m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0
+  m_SuspensionDistance: 0.2
+  m_ForceAppPointDistance: 0.6
   m_Mass: 25
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -28628,7 +28628,7 @@ WheelCollider:
     m_ExtremumValue: 2
     m_AsymptoteSlip: 1
     m_AsymptoteValue: 1.5
-    m_Stiffness: 2
+    m_Stiffness: 1.8
   m_Enabled: 1
 --- !u!1 &1784280154 stripped
 GameObject:
@@ -34221,8 +34221,8 @@ WheelCollider:
     spring: 90000
     damper: 9000
     targetPosition: 0.85
-  m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0
+  m_SuspensionDistance: 0.2
+  m_ForceAppPointDistance: 0.6
   m_Mass: 25
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -34236,7 +34236,7 @@ WheelCollider:
     m_ExtremumValue: 2
     m_AsymptoteSlip: 1
     m_AsymptoteValue: 1.5
-    m_Stiffness: 2
+    m_Stiffness: 1.8
   m_Enabled: 1
 --- !u!1001 &2135382266
 PrefabInstance:
