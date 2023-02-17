@@ -124,14 +124,14 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 4
-  m_Range: 200
-  m_SpotAngle: 150
+  m_Color: {r: 1, g: 0.9342833, b: 0.76792455, a: 1}
+  m_Intensity: 3
+  m_Range: 250
+  m_SpotAngle: 155
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1

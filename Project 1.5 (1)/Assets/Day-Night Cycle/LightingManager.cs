@@ -12,11 +12,11 @@ public class LightingManager : MonoBehaviour
 
     //Variables
     [SerializeField, Range(0, 120)] private float TimeOfDay;
-    public Light[] lights;      // an array of lights to control
+
     public float turnOnTime;    // the time of day to turn the lights on (in hours)
     public float turnOffTime;   // the time of day to turn the lights off (in hours)
 
-    public Light FloodLight_1, FloodLight_2, FloodLight_3, FloodLight_4, FloodLight_5, FloodLight_6, FloodLight_;
+    public Light FloodLight_1, FloodLight_2, FloodLight_3, FloodLight_4, FloodLight_5, FloodLight_6, FloodLight_7;
     public Light CarHeadLight_L, CarHeadLight_R;
 
 
@@ -35,6 +35,35 @@ public class LightingManager : MonoBehaviour
         else
         {
             UpdateLighting(TimeOfDay / 120f);
+        }
+
+        // if it's past the turn on time and before the turn off time, turn on the lights
+        if (TimeOfDay > turnOnTime || TimeOfDay < turnOffTime)
+        {
+            FloodLight_1.enabled = true;
+            FloodLight_2.enabled = true;
+            FloodLight_3.enabled = true;
+            FloodLight_4.enabled = true;
+            FloodLight_5.enabled = true;
+            FloodLight_6.enabled = true;
+            FloodLight_7.enabled = true;
+
+            CarHeadLight_L.enabled = true;
+            CarHeadLight_R.enabled = true;
+        }
+        // otherwise, turn off the lights
+        else
+        {
+            FloodLight_1.enabled = false;
+            FloodLight_2.enabled = false;
+            FloodLight_3.enabled = false;
+            FloodLight_4.enabled = false;
+            FloodLight_5.enabled = false;
+            FloodLight_6.enabled = false;
+            FloodLight_7.enabled = false;
+
+            CarHeadLight_L.enabled = false;
+            CarHeadLight_R.enabled = false;
         }
     }
 
@@ -80,40 +109,6 @@ public class LightingManager : MonoBehaviour
                     return;
                 }
             }
-        }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        StartCoroutine(TurnLightsOnAndOff());
-    }
-
-    IEnumerator  TurnLightsOnAndOff()
-    {
-        while (true)
-        {
-
-
-            // if it's past the turn on time and before the turn off time, turn on the lights
-            if (TimeOfDay > turnOnTime && TimeOfDay < turnOffTime)
-            {
-                foreach (Light light in lights)
-                {
-                    light.enabled = true;
-                }
-            }
-            // otherwise, turn off the lights
-            else
-            {
-                foreach (Light light in lights)
-                {
-                    light.enabled = false;
-                }
-            }
-
-            // wait for a minute before checking the time again
-            yield return new WaitForSeconds(2f);
         }
     }
 }
