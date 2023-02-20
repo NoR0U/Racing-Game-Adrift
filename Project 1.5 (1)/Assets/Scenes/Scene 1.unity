@@ -15,12 +15,12 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.4961162, g: 0.40591326, b: 0.22550736, a: 1}
+  m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 1
   m_FogDensity: 0.001
   m_LinearFogStart: 0
   m_LinearFogEnd: 1000
-  m_AmbientSkyColor: {r: 0.78431374, g: 0.7082342, b: 0.59411496, a: 1}
+  m_AmbientSkyColor: {r: 0.12483779, g: 0.1672487, b: 0.52719504, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -38,7 +38,8 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 395233332}
-  m_IndirectSpecularColor: {r: 0.4010248, g: 0.42071092, b: 0.42030355, a: 1}
+  m_IndirectSpecularColor: {r: 0.0041066576, g: 0.00022600843, b: 0.00000006537494,
+    a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -6980,7 +6981,7 @@ PrefabInstance:
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
@@ -7610,7 +7611,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.27207962, g: 0.27207962, b: 0.27207962, a: 1}
+  m_Color: {r: 0.06251669, g: 0.06251669, b: 0.06251669, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -7668,7 +7669,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395233331}
-  m_LocalRotation: {x: 0.08713161, y: 0.02347008, z: -0.9959182, w: 0.0020533672}
+  m_LocalRotation: {x: 0.071956374, y: -0.56209964, z: -0.8224646, w: -0.049177382}
   m_LocalPosition: {x: 62.412254, y: 95.829094, z: -6.8794036}
   m_LocalScale: {x: 1, y: 0, z: 1}
   m_Children: []
@@ -15835,7 +15836,7 @@ PrefabInstance:
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
@@ -19555,7 +19556,7 @@ PrefabInstance:
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
@@ -20339,7 +20340,7 @@ PrefabInstance:
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
@@ -22264,7 +22265,7 @@ PrefabInstance:
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
@@ -26459,7 +26460,7 @@ PrefabInstance:
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
@@ -27874,7 +27875,7 @@ PrefabInstance:
     - target: {fileID: 3673665718906114086, guid: 2194ac0e8cf35fb44853b27ea1b6f897,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3673665718906114086, guid: 2194ac0e8cf35fb44853b27ea1b6f897,
         type: 3}
@@ -27929,7 +27930,7 @@ PrefabInstance:
     - target: {fileID: 8953460100927376251, guid: 2194ac0e8cf35fb44853b27ea1b6f897,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8953460100927376251, guid: 2194ac0e8cf35fb44853b27ea1b6f897,
         type: 3}
@@ -30329,7 +30330,7 @@ PrefabInstance:
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7626520876261631024, guid: e07db626de5f5f741b7968621ca9568f,
         type: 3}
@@ -39171,7 +39172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DirectionalLight: {fileID: 395233332}
   Preset: {fileID: 11400000, guid: 0aeb26d932344a046a2671d709b4669d, type: 2}
-  TimeOfDay: 89.1
+  TimeOfDay: 112.9
   turnOnTime: 92.5
   turnOffTime: 27.5
   FloodLight_1: {fileID: 1347891187}
