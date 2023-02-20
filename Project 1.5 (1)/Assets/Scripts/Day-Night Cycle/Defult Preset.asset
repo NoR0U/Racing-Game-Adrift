@@ -14,30 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AmbientColor:
     serializedVersion: 2
-<<<<<<< Updated upstream:Project 1.5 (1)/Assets/Scripts/Day-Night Cycle/Defult Preset.asset
     key0: {r: 0.24313726, g: 0.3137255, b: 0.8784314, a: 1}
-=======
-    key0: {r: 0.078431375, g: 0.09803922, b: 0.3137255, a: 1}
->>>>>>> Stashed changes:Project 1.5 (1)/Assets/Day-Night Cycle/Defult Preset.asset
     key1: {r: 0.24313726, g: 0.3137255, b: 0.8784314, a: 1}
     key2: {r: 0.78431374, g: 0.7058824, b: 0.5882353, a: 0}
     key3: {r: 1, g: 1, b: 1, a: 0}
     key4: {r: 0.78431374, g: 0.7058824, b: 0.5882353, a: 0}
     key5: {r: 0.19607843, g: 0.27450982, b: 0.85490197, a: 0}
-<<<<<<< Updated upstream:Project 1.5 (1)/Assets/Scripts/Day-Night Cycle/Defult Preset.asset
     key6: {r: 0.19607843, g: 0.27450982, b: 0.85490197, a: 0}
     key7: {r: 0.19607843, g: 0.27450982, b: 0.85490197, a: 0}
-=======
-    key6: {r: 0.078431375, g: 0.097378395, b: 0.3137255, a: 0}
-    key7: {r: 0.078431375, g: 0.0973784, b: 0.31372553, a: 0}
->>>>>>> Stashed changes:Project 1.5 (1)/Assets/Day-Night Cycle/Defult Preset.asset
     ctime0: 0
     ctime1: 9830
     ctime2: 16384
     ctime3: 32768
     ctime4: 49151
     ctime5: 55705
-    ctime6: 63897
+    ctime6: 65535
     ctime7: 65535
     atime0: 0
     atime1: 65535
@@ -48,7 +39,7 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
-    m_NumColorKeys: 8
+    m_NumColorKeys: 7
     m_NumAlphaKeys: 2
   DirectionalColor:
     serializedVersion: 2
@@ -64,7 +55,7 @@ MonoBehaviour:
     ctime1: 32768
     ctime2: 65535
     ctime3: 65535
-    ctime4: 65535
+    ctime4: 0
     ctime5: 0
     ctime6: 0
     ctime7: 0
@@ -81,13 +72,8 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   FogColor:
     serializedVersion: 2
-<<<<<<< Updated upstream:Project 1.5 (1)/Assets/Scripts/Day-Night Cycle/Defult Preset.asset
     key0: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
     key1: {r: 0.13333334, g: 0.13333334, b: 0.13333334, a: 1}
-=======
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 0.15686275, g: 0.11764706, b: 0.11764706, a: 1}
->>>>>>> Stashed changes:Project 1.5 (1)/Assets/Day-Night Cycle/Defult Preset.asset
     key2: {r: 0.627451, g: 0.5058824, b: 0.19607843, a: 0}
     key3: {r: 0.7254902, g: 0.8235294, b: 1, a: 0}
     key4: {r: 0.7254902, g: 0.8235294, b: 1, a: 0}
