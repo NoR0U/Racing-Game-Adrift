@@ -9,15 +9,6 @@ public class LightingManager : MonoBehaviour
     //Variables
     [SerializeField, Range(0, 120)] private float TimeOfDay;
 
-<<<<<<< Updated upstream:Project 1.5 (1)/Assets/Scripts/Day-Night Cycle/LightingManager.cs
-=======
-    public float turnOnTime;    // the time of day to turn the lights on (in hours)
-    public float turnOffTime;   // the time of day to turn the lights off (in hours)
-
-    public Light FloodLight_1, FloodLight_2, FloodLight_3, FloodLight_4, FloodLight_5, FloodLight_6, FloodLight_7, FloodLight_8;
-    public Light CarHeadLight_L, CarHeadLight_R;
-
->>>>>>> Stashed changes:Project 1.5 (1)/Assets/Day-Night Cycle/LightingManager.cs
 
     private void Update()
     {
@@ -35,40 +26,6 @@ public class LightingManager : MonoBehaviour
         {
             UpdateLighting(TimeOfDay / 120f);
         }
-<<<<<<< Updated upstream:Project 1.5 (1)/Assets/Scripts/Day-Night Cycle/LightingManager.cs
-=======
-
-        // if it's past the turn on time and before the turn off time, turn on the lights
-        if (TimeOfDay > turnOnTime || TimeOfDay < turnOffTime)
-        {
-            FloodLight_1.enabled = true;
-            FloodLight_2.enabled = true;
-            FloodLight_3.enabled = true;
-            FloodLight_4.enabled = true;
-            FloodLight_5.enabled = true;
-            FloodLight_6.enabled = true;
-            FloodLight_7.enabled = true;
-            FloodLight_8.enabled = true;
-
-            CarHeadLight_L.enabled = true;
-            CarHeadLight_R.enabled = true;
-        }
-        // otherwise, turn off the lights
-        else
-        {
-            FloodLight_1.enabled = false;
-            FloodLight_2.enabled = false;
-            FloodLight_3.enabled = false;
-            FloodLight_4.enabled = false;
-            FloodLight_5.enabled = false;
-            FloodLight_6.enabled = false;
-            FloodLight_7.enabled = false;
-            FloodLight_8.enabled = false;
-
-            CarHeadLight_L.enabled = false;
-            CarHeadLight_R.enabled = false;
-        }
->>>>>>> Stashed changes:Project 1.5 (1)/Assets/Day-Night Cycle/LightingManager.cs
     }
 
 
