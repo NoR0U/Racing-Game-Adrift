@@ -1,0 +1,586 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.24f1 (79c78de19888) revision 7980941'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16297 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59037
+Successfully changed project path to: C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)
+C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 70.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   
+    VRAM:     8019 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001895 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.509 seconds
+Domain Reload Profiling:
+	ReloadAssembly (510ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (401ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (165ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005207 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (959ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2300 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.1 MB.
+System memory in use after: 189.3 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2733.
+Total: 6.258500 ms (FindLiveObjects: 0.257700 ms CreateObjectMapping: 0.058800 ms MarkObjects: 5.860700 ms  DeleteObjects: 0.079900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Asset Pack/Models/SR_Bld_Pitstop_Large.fbx
+  artifactKey: Guid(80775c22449ff84439c4ba17ff65aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Pitstop_Large.fbx using Guid(80775c22449ff84439c4ba17ff65aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c4a07daabee4b6acff538aa48ab3c8') in 0.110047 seconds 
+  Import took 0.113814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Diagonal.dae
+  artifactKey: Guid(65a0fc083db91114ab4198ec19e86c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Diagonal.dae using Guid(65a0fc083db91114ab4198ec19e86c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9f09eddcefe6a56685bbf78fbf3358') in 0.034538 seconds 
+  Import took 0.037580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Grass.fbx
+  artifactKey: Guid(cc2baef8c1c054b4da8a5091ba18e86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Grass.fbx using Guid(cc2baef8c1c054b4da8a5091ba18e86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bcb46e0da85d5642786616d0547134') in 0.024841 seconds 
+  Import took 0.027765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_Blank.fbx
+  artifactKey: Guid(cf7d977449942034c8e478345522f1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_Blank.fbx using Guid(cf7d977449942034c8e478345522f1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2602e4759d3ed90bacf864f4db71fe6') in 0.028422 seconds 
+  Import took 0.031311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Rocktile Straight 1.dae
+  artifactKey: Guid(f76e5083330a1774887db1ec18848595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Rocktile Straight 1.dae using Guid(f76e5083330a1774887db1ec18848595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4828b9b8e6078f267f545884770ea33d') in 0.050052 seconds 
+  Import took 0.053566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Pitstop_Small.fbx
+  artifactKey: Guid(69cb6e38b0058d040ad261abc8974e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Pitstop_Small.fbx using Guid(69cb6e38b0058d040ad261abc8974e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f27a8368cc860970593af4997120cb') in 0.028935 seconds 
+  Import took 0.031818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Grass_Skids.fbx
+  artifactKey: Guid(dc58f10e6f1f1df499c1a8f0dc5098cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Grass_Skids.fbx using Guid(dc58f10e6f1f1df499c1a8f0dc5098cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef65ec82a1fffe5211802f174ae6d86f') in 0.017607 seconds 
+  Import took 0.020564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Rocktile Straight 2.dae
+  artifactKey: Guid(d1ed9fd5d302cc345a00651b089e707e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Rocktile Straight 2.dae using Guid(d1ed9fd5d302cc345a00651b089e707e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0622b57194a544883404c690e8c85cbd') in 0.054206 seconds 
+  Import took 0.057304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Stands_Attach_Yellow.fbx
+  artifactKey: Guid(5808f65284775154d902cb238d232fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Stands_Attach_Yellow.fbx using Guid(5808f65284775154d902cb238d232fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776758f069381805cefe9d1786427817') in 0.049002 seconds 
+  Import took 0.052090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Rocktile Diagonal.dae
+  artifactKey: Guid(08e493f868e98334b9561248a18cf969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Rocktile Diagonal.dae using Guid(08e493f868e98334b9561248a18cf969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad86b335662f40607afce17f95e6f1f3') in 0.053528 seconds 
+  Import took 0.056513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Stands_Attach_Blue.fbx
+  artifactKey: Guid(101cade2de704ca4692b812b4b5961d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Stands_Attach_Blue.fbx using Guid(101cade2de704ca4692b812b4b5961d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70794bf14fb9be51f43569f7d3ef33ea') in 0.046502 seconds 
+  Import took 0.049493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Asset Pack/Models/SR_Characters2.fbx
+  artifactKey: Guid(4cfe2a1ae41042f49a624843e50039d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Characters2.fbx using Guid(4cfe2a1ae41042f49a624843e50039d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dce3b8f0a62e4e93e1474aa76a5834c') in 0.058228 seconds 
+  Import took 0.061423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Straight 2.dae
+  artifactKey: Guid(b171fd32029e058429beaee55853e11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Straight 2.dae using Guid(b171fd32029e058429beaee55853e11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c1e66077a82ec5156a1bdeb53180cc') in 0.019781 seconds 
+  Import took 0.023780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Stands_Attach_Red.fbx
+  artifactKey: Guid(b75adda4082b0a84ba291fc5d820db91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Stands_Attach_Red.fbx using Guid(b75adda4082b0a84ba291fc5d820db91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b8ee752c7c6ba006fe16cb9751786d') in 0.041300 seconds 
+  Import took 0.044969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Stands_Attach_Grey.fbx
+  artifactKey: Guid(9f57fb0480665c84b984098fbfa23ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Stands_Attach_Grey.fbx using Guid(9f57fb0480665c84b984098fbfa23ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce0fe9e8509bdbe19ca7cdbf9372477') in 0.042591 seconds 
+  Import took 0.045660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Straight 3.dae
+  artifactKey: Guid(5f0bfec1f76234f43b0f098f4827b98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Straight 3.dae using Guid(5f0bfec1f76234f43b0f098f4827b98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a06a5d9103859fd921788d52ba1f94d') in 0.051566 seconds 
+  Import took 0.054984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Connector 2.dae
+  artifactKey: Guid(bc2d01bc395a03f47ab1dcf946bb9682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Connector 2.dae using Guid(bc2d01bc395a03f47ab1dcf946bb9682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc9b1a6f89df3f90022220d65197290') in 0.019407 seconds 
+  Import took 0.022893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Grasstile Convex.dae
+  artifactKey: Guid(89ba98edc5caaff49a3d2c6a7117f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Grasstile Convex.dae using Guid(89ba98edc5caaff49a3d2c6a7117f260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ad0cd626133b9a19e45bef5f846ec1') in 0.021410 seconds 
+  Import took 0.024564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Grasstile Straight.dae
+  artifactKey: Guid(a548c1c528522b04ebaec75903bd2d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Grasstile Straight.dae using Guid(a548c1c528522b04ebaec75903bd2d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19103c1f285981d1c9bceda2673ff909') in 0.021658 seconds 
+  Import took 0.024783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Tent_Main.fbx
+  artifactKey: Guid(02f3493bd95788b4190b5d567e0d12c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Tent_Main.fbx using Guid(02f3493bd95788b4190b5d567e0d12c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a229a1f92ffe3ed5eb72bbe3648729') in 0.016896 seconds 
+  Import took 0.019879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Asset Pack/Models
+  artifactKey: Guid(f61948bd66361204a858d6df709356fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models using Guid(f61948bd66361204a858d6df709356fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd57ca0013bf154810faa87758b23762') in 0.005364 seconds 
+  Import took 0.008569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Connector 1.dae
+  artifactKey: Guid(0c22dfcb0ccb47f42871ef4a1ba9e325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Connector 1.dae using Guid(0c22dfcb0ccb47f42871ef4a1ba9e325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a501d8fd43817f98b884df29673edb') in 0.018043 seconds 
+  Import took 0.021576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Tent_Long.fbx
+  artifactKey: Guid(7471c37f8cc22eb459ab4d10ea3267e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Tent_Long.fbx using Guid(7471c37f8cc22eb459ab4d10ea3267e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f1571480fe00be10704a621f1ea116') in 0.019423 seconds 
+  Import took 0.022857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Tent_Shop_Blue.fbx
+  artifactKey: Guid(3b1d1fd48840d8f4db7509da387b3653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Tent_Shop_Blue.fbx using Guid(3b1d1fd48840d8f4db7509da387b3653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a6596477966b9e20d4e10b2e102731') in 0.018276 seconds 
+  Import took 0.021367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Convex.dae
+  artifactKey: Guid(e32d5719741f7dd4f972f523484077f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Convex.dae using Guid(e32d5719741f7dd4f972f523484077f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c2956497a7eb2980459adfaaf1ba6d') in 0.016844 seconds 
+  Import took 0.019777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Asset Pack/Models/SR_Characters.fbx
+  artifactKey: Guid(d8343648111185c4eb4d8b2cdb84e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Characters.fbx using Guid(d8343648111185c4eb4d8b2cdb84e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00c5580b170c8fc16ee7290628f5393') in 0.012298 seconds 
+  Import took 0.015341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Asset Pack/Models/SimpleCharacter_Vehicle_Animations.fbx
+  artifactKey: Guid(2367258d7a7590843aea64da77cbeb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SimpleCharacter_Vehicle_Animations.fbx using Guid(2367258d7a7590843aea64da77cbeb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993d3505368b90362f72a213fa5b7bc4') in 0.017180 seconds 
+  Import took 0.020446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Tent_Small.fbx
+  artifactKey: Guid(04ca69b269fc70e4e9c8039348ad4f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Tent_Small.fbx using Guid(04ca69b269fc70e4e9c8039348ad4f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23975efffc92ce97046a7cc71ec0e737') in 0.018439 seconds 
+  Import took 0.021425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Stands.fbx
+  artifactKey: Guid(3c797b32801a85e46b9cf1357b15491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Stands.fbx using Guid(3c797b32801a85e46b9cf1357b15491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5874e7545c6a6988be4a67ca9f328bc') in 0.040969 seconds 
+  Import took 0.044344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Concave.dae
+  artifactKey: Guid(72d3e9c0a8221e84c878c19447c08447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Concave.dae using Guid(72d3e9c0a8221e84c878c19447c08447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3336aa09d279ca95eecc4316487d2acb') in 0.015493 seconds 
+  Import took 0.018881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerIntersection.fbx
+  artifactKey: Guid(bdd4cb6b0e591db4f9bfbc1e8ecc92e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerIntersection.fbx using Guid(bdd4cb6b0e591db4f9bfbc1e8ecc92e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d80c6c1a20a5d1d57bd2c995d6d7686') in 0.017085 seconds 
+  Import took 0.021119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Pass 1.dae
+  artifactKey: Guid(4baa6dc1e84640745973ba84f8826e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Pass 1.dae using Guid(4baa6dc1e84640745973ba84f8826e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14229034b74468e480f6c9674711c008') in 0.018121 seconds 
+  Import took 0.021267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Pass 2.dae
+  artifactKey: Guid(b1f16bf1bfcc6d641892093d72002001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Pass 2.dae using Guid(b1f16bf1bfcc6d641892093d72002001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05a8a6f61557cfe1c7bb7696fea1765') in 0.017457 seconds 
+  Import took 0.020419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Grasstile Concave.dae
+  artifactKey: Guid(422502d5b0dc91d46a25ceb0db689b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Grasstile Concave.dae using Guid(422502d5b0dc91d46a25ceb0db689b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f8648800657389650445ce9437bd08') in 0.018262 seconds 
+  Import took 0.021720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Rocktile Convex.dae
+  artifactKey: Guid(28e76008f620a7e419b42b9a454d6203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Rocktile Convex.dae using Guid(28e76008f620a7e419b42b9a454d6203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81d10258531bd2fb82b796ef32a599c') in 0.052469 seconds 
+  Import took 0.056156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Dirt_Skids.fbx
+  artifactKey: Guid(0cbecaf6cc0cf8541919fed43da2782c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Dirt_Skids.fbx using Guid(0cbecaf6cc0cf8541919fed43da2782c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d5c53a350f9fb34db367fe67be75f5') in 0.019376 seconds 
+  Import took 0.022937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Stadium_Corner.fbx
+  artifactKey: Guid(6a1c0caa31e91f64582538b466d11083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Stadium_Corner.fbx using Guid(6a1c0caa31e91f64582538b466d11083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909d2960c5c920dbd7e7a0d5a636208c') in 0.042140 seconds 
+  Import took 0.045173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Dirt.fbx
+  artifactKey: Guid(ff7ef63c7cf00fa4595524b2fee93baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Dirt.fbx using Guid(ff7ef63c7cf00fa4595524b2fee93baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4468fe2af07a3598ab819b38b3edf923') in 0.020137 seconds 
+  Import took 0.023123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Straight 1.dae
+  artifactKey: Guid(42ec1b33cc0ff1045a10129f1ed046f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Clifftile Straight 1.dae using Guid(42ec1b33cc0ff1045a10129f1ed046f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42f4115a73e5e4b7d1ebcf88ee09408') in 0.017944 seconds 
+  Import took 0.020884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Tent_Shop_Red.fbx
+  artifactKey: Guid(f08d1565efe02fc4281ca202404508d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Tent_Shop_Red.fbx using Guid(f08d1565efe02fc4281ca202404508d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7f76fed82928c36f6c0a4b22f35012') in 0.018687 seconds 
+  Import took 0.021777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/BrokenVector/LowPolyCliffPack/Models/Rocktile Pass.dae
+  artifactKey: Guid(1edb446e193775447821ee392adf65a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCliffPack/Models/Rocktile Pass.dae using Guid(1edb446e193775447821ee392adf65a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd532493eae4340f2618a761ad162de90') in 0.053978 seconds 
+  Import took 0.057038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Stadium_Straight.fbx
+  artifactKey: Guid(dbfa52f41e768404081647b4e6d08ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Stadium_Straight.fbx using Guid(dbfa52f41e768404081647b4e6d08ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a278e16f0079d3e41b0862f9008805') in 0.038805 seconds 
+  Import took 0.041850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Tent_Center.fbx
+  artifactKey: Guid(d5ec2f46cc0f8cd42bb10f67718e1cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Tent_Center.fbx using Guid(d5ec2f46cc0f8cd42bb10f67718e1cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000909479f421ea08b493e1c1366533d') in 0.017348 seconds 
+  Import took 0.020269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001097 seconds.
+  path: Assets/Asset Pack/Models/Materials
+  artifactKey: Guid(4bb8a70705359584f971aa660e01c4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/Materials using Guid(4bb8a70705359584f971aa660e01c4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976bd495940a762b93dd6d56f70e5a6d') in 0.005748 seconds 
+  Import took 0.008826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.890772 seconds.
+  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_CornerSmooth_Dirt_Skids.prefab
+  artifactKey: Guid(1b6b9ef6c09befc41aa889d992556cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_CornerSmooth_Dirt_Skids.prefab using Guid(1b6b9ef6c09befc41aa889d992556cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096f2e809e0eb11fd2260536b01be13b') in 0.015810 seconds 
+  Import took 0.019465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_Straight_Skids.fbx
+  artifactKey: Guid(04caea1f698664f439bf650cfd7afa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_Straight_Skids.fbx using Guid(04caea1f698664f439bf650cfd7afa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5c939be45d675a0bcbac455a323559') in 0.018000 seconds 
+  Import took 0.021198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_Straight_Skids.prefab
+  artifactKey: Guid(9de5562bb92ba8d4b9fc09e767a3a7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_Straight_Skids.prefab using Guid(9de5562bb92ba8d4b9fc09e767a3a7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349d727c40e2b5c2857f2a250c67ac1c') in 0.013144 seconds 
+  Import took 0.016185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Sand_Skids.fbx
+  artifactKey: Guid(0c5932d744a16204c89450d0b38300f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Sand_Skids.fbx using Guid(0c5932d744a16204c89450d0b38300f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca54d6682306fe5c53e625b2cab24962') in 0.020818 seconds 
+  Import took 0.023742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_CornerSmooth_Grass_Skids.prefab
+  artifactKey: Guid(6d92a5a9f2114684fa194b0d84b771c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_CornerSmooth_Grass_Skids.prefab using Guid(6d92a5a9f2114684fa194b0d84b771c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dec7b6144f62a0d785869a16462b34') in 0.014661 seconds 
+  Import took 0.017667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_CornerTight_03_Skids.prefab
+  artifactKey: Guid(1ee175a2711b6cd428326e874beb6dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_CornerTight_03_Skids.prefab using Guid(1ee175a2711b6cd428326e874beb6dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4db9bbf7d775eb6e029b1e90e82ac3') in 0.016751 seconds 
+  Import took 0.019857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_Straight_Skids_End.prefab
+  artifactKey: Guid(e1019ed9eb08623409332041d49a3036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_Straight_Skids_End.prefab using Guid(e1019ed9eb08623409332041d49a3036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ac3ac792aeed213971f3607f83c2a7') in 0.014316 seconds 
+  Import took 0.017367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_Straight_Skids_End.fbx
+  artifactKey: Guid(691eb76c53c910c479e5d471a7731620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_Straight_Skids_End.fbx using Guid(691eb76c53c910c479e5d471a7731620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88281a3ccafe778f00bd607bbe50043a') in 0.015345 seconds 
+  Import took 0.018534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_CornerSmooth_Sand_Skids.prefab
+  artifactKey: Guid(a25ae6976810efd4fa791d635bc05131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_CornerSmooth_Sand_Skids.prefab using Guid(a25ae6976810efd4fa791d635bc05131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69456d36c84540a4dd0548f5775c1a5d') in 0.013412 seconds 
+  Import took 0.016611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerTight_03_Skids.fbx
+  artifactKey: Guid(35125254c41b11447b9cc2585b4ae2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerTight_03_Skids.fbx using Guid(35125254c41b11447b9cc2585b4ae2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849aa898bbcd9ee82fe34d7baa0bc9d6') in 0.016675 seconds 
+  Import took 0.020109 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 16.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.4 MB.
+System memory in use after: 160.6 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2744.
+Total: 7.198800 ms (FindLiveObjects: 0.290600 ms CreateObjectMapping: 0.059100 ms MarkObjects: 6.807000 ms  DeleteObjects: 0.040200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
