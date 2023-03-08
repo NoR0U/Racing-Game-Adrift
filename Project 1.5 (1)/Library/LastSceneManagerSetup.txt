@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Scene 1.3 (Oval Configuration).unity
+- path: Assets/Scenes/Scene 1.1 (Long Configuration).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

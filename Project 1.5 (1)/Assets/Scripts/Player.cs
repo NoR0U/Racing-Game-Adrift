@@ -15,16 +15,21 @@ public class Player : MonoBehaviour
     private float lapTimer;
     private int lastCheckpointPassed = 0;
 
+    private Transform checkpointsParent;
+    private int checkpointCount;
+    private int checkpointLayer;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        checkpointsParent = GameObject.Find("Checkpoints").transform;
+        checkpointCount = checkpointsParent.childCount;
+        checkpointLayer = LayerMask.NameToLayer("Checkpoint");
+        CarController = GetComponent<CarController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (controlType == ControlType.HumanInput) ;
     }
 }

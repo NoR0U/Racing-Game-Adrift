@@ -15,7 +15,7 @@ C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63064
+58131
 Successfully changed project path to: C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)
 C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16760] Host "[IP] 192.168.50.219 [Port] 0 [Flags] 2 [Guid] 2360850385 [EditorId] 2360850385 [Version] 1048832 [Id] WindowsEditor(7,Not-a-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19604] Host "[IP] 192.168.50.219 [Port] 0 [Flags] 2 [Guid] 241349409 [EditorId] 241349409 [Version] 1048832 [Id] WindowsEditor(7,Not-a-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16760] Host "[IP] 192.168.50.219 [Port] 0 [Flags] 2 [Guid] 2360850385 [EditorId] 2360850385 [Version] 1048832 [Id] WindowsEditor(7,Not-a-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19604] Host "[IP] 192.168.50.219 [Port] 0 [Flags] 2 [Guid] 241349409 [EditorId] 241349409 [Version] 1048832 [Id] WindowsEditor(7,Not-a-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 42.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.9f1 (1cc571a6ec95)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Resources/UnitySubsystems
@@ -67,48 +67,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017627 seconds.
-- Loaded All Assemblies, in  0.608 seconds
+Registered in 0.014512 seconds.
+- Loaded All Assemblies, in  0.365 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 693 ms
+Android Extension - Scanning For ADB Devices 496 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.129 seconds
+- Finished resetting the current domain, in  0.805 seconds
 Domain Reload Profiling:
-	ReloadAssembly (303ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (218ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (140ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
-				TypeCache.Initialize (286ms)
-					TypeCache.ScanAssembly (283ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (134ms)
+				TypeCache.Initialize (133ms)
+					TypeCache.ScanAssembly (132ms)
+				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1053ms)
+			SetupLoadedEditorAssemblies (747ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (866ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (604ms)
+				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -116,8 +116,8 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.991 seconds
-Refreshing native plugins compatible for Editor in 17.56 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.895 seconds
+Refreshing native plugins compatible for Editor in 16.26 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -129,938 +129,404 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.796 seconds
+- Finished resetting the current domain, in  0.650 seconds
 Domain Reload Profiling:
-	ReloadAssembly (348ms)
-		BeginReloadAssembly (208ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		LoadAllAssembliesAndSetupDomain (635ms)
-			LoadAssemblies (441ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
-				TypeCache.Initialize (265ms)
-					TypeCache.ScanAssembly (255ms)
-				ResolveRequiredComponents (3ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (595ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (186ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 19.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2646 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (161.4 KB). Loaded Objects now: 3110.
-Memory consumption went from 0.50 GB to 0.50 GB.
-Total: 8.598100 ms (FindLiveObjects: 0.658700 ms CreateObjectMapping: 0.085000 ms MarkObjects: 7.605500 ms  DeleteObjects: 0.247500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
-  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
-  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
-  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
-  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
-  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
-  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
-  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
-  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
-  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
-  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
-  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
-  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
-  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
-  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
-  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
-  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
-  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
-  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
-  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
-  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
-  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
-  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
-  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
-  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
-  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
-  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
-  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
-  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
-  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
-  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
-  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
-  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
-  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
-  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
-  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
-  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
-  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
-  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
-  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
-  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
-  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
-  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 346111.580161 seconds.
-  path: Assets/Asset Pack/Models/SR_Veh_QuadBike_Green.fbx
-  artifactKey: Guid(f10949e53f4c03d4296ce80662d12c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Veh_QuadBike_Green.fbx using Guid(f10949e53f4c03d4296ce80662d12c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfbf23470f19c507e3f20816f6f074b') in 0.910716 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset Pack/Models/SR_Veh_QuadBike_Red.fbx
-  artifactKey: Guid(5d40ca09c066ae840a2d59bba6fe7068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Veh_QuadBike_Red.fbx using Guid(5d40ca09c066ae840a2d59bba6fe7068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df85549803e22746dbffea687342f114') in 0.068401 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset Pack/Models/SR_Veh_MuscleSports_Yellow.fbx
-  artifactKey: Guid(6e25e2d5edb0c6d48af74ab49aea38fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Veh_MuscleSports_Yellow.fbx using Guid(6e25e2d5edb0c6d48af74ab49aea38fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374fec0e379b9c8c54ec63ca2d25ce9f') in 0.062533 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset Pack/Models/SR_Veh_OffRoadTruck_White.fbx
-  artifactKey: Guid(9d6f72893e7c39b4eb737477134d2b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Veh_OffRoadTruck_White.fbx using Guid(9d6f72893e7c39b4eb737477134d2b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bb4d62846088e91052f5d2bad9d213') in 0.057273 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset Pack/Models/SR_Veh_MuscleSports_Purple.fbx
-  artifactKey: Guid(d7e3638ba18a4104a99b5acfc141106f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Veh_MuscleSports_Purple.fbx using Guid(d7e3638ba18a4104a99b5acfc141106f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0838ca9796d09e1c7a991231d79bba1b') in 0.060129 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Asset Pack/Models/SR_Veh_OffRoadTruck_Red.fbx
-  artifactKey: Guid(a05cc12f220d1334eba0293601d695f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Veh_OffRoadTruck_Red.fbx using Guid(a05cc12f220d1334eba0293601d695f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a920c9252416715f09afc41f4e7664a1') in 0.058515 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Asset Pack/Models/SR_Veh_MuscleSports_Blue.fbx
-  artifactKey: Guid(990a9e0e728664d4e936f3d49556c72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Veh_MuscleSports_Blue.fbx using Guid(990a9e0e728664d4e936f3d49556c72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd071332f66eff411af7b779af7e9d6db') in 0.058509 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Pack/Models/SR_Veh_OffRoadTruck_Purple.fbx
-  artifactKey: Guid(d4513fb54f86edc448e70a737ac365b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Veh_OffRoadTruck_Purple.fbx using Guid(d4513fb54f86edc448e70a737ac365b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1d6ca24b185af0b22541b3e4ba9394') in 0.065523 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Pack/Models/SR_Veh_MuscleSports_Orange.fbx
-  artifactKey: Guid(d872241246906fa4d84c803619470f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Veh_MuscleSports_Orange.fbx using Guid(d872241246906fa4d84c803619470f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc15a2bb2252d520085e8dc2a228cfb') in 0.050007 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.212 seconds
-Refreshing native plugins compatible for Editor in 18.95 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.277 seconds
-Domain Reload Profiling:
-	ReloadAssembly (611ms)
-		BeginReloadAssembly (510ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		LoadAllAssembliesAndSetupDomain (593ms)
-			LoadAssemblies (427ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
-				TypeCache.Initialize (241ms)
-					TypeCache.ScanAssembly (235ms)
-				ResolveRequiredComponents (4ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (601ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (50ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (151ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 17.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2624 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (122.0 KB). Loaded Objects now: 3125.
-Memory consumption went from 0.50 GB to 0.50 GB.
-Total: 8.479000 ms (FindLiveObjects: 0.310000 ms CreateObjectMapping: 0.066800 ms MarkObjects: 7.965300 ms  DeleteObjects: 0.135500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
-  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
-  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
-  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
-  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
-  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
-  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
-  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
-  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
-  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
-  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
-  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
-  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
-  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
-  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
-  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
-  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
-  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
-  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
-  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
-  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
-  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
-  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
-  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
-  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
-  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
-  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
-  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
-  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
-  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
-  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
-  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
-  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
-  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
-  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
-  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
-  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
-  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
-  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
-  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
-  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
-  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
-  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.073 seconds
-Refreshing native plugins compatible for Editor in 20.69 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.071 seconds
-Domain Reload Profiling:
-	ReloadAssembly (547ms)
-		BeginReloadAssembly (460ms)
+	ReloadAssembly (216ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		LoadAllAssembliesAndSetupDomain (520ms)
-			LoadAssemblies (345ms)
+			CreateAndSetChildDomain (23ms)
+		LoadAllAssembliesAndSetupDomain (672ms)
+			LoadAssemblies (483ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-				TypeCache.Initialize (235ms)
-					TypeCache.ScanAssembly (230ms)
-				ResolveRequiredComponents (4ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (506ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (145ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 16.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2624 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (121.9 KB). Loaded Objects now: 3128.
-Memory consumption went from 0.50 GB to 0.50 GB.
-Total: 7.273700 ms (FindLiveObjects: 0.283600 ms CreateObjectMapping: 0.069700 ms MarkObjects: 6.785400 ms  DeleteObjects: 0.133400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
-  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
-  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
-  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
-  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
-  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
-  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
-  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
-  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
-  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
-  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
-  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
-  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
-  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
-  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
-  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
-  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
-  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
-  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
-  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
-  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
-  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
-  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
-  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
-  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
-  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
-  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
-  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
-  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
-  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
-  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
-  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
-  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
-  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
-  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
-  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
-  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
-  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
-  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
-  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
-  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
-  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
-  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.055 seconds
-Refreshing native plugins compatible for Editor in 17.18 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.196 seconds
-Domain Reload Profiling:
-	ReloadAssembly (533ms)
-		BeginReloadAssembly (455ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		LoadAllAssembliesAndSetupDomain (516ms)
-			LoadAssemblies (349ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
-				TypeCache.Initialize (227ms)
-					TypeCache.ScanAssembly (221ms)
+			SetupTypeCache (242ms)
+				TypeCache.Initialize (219ms)
+					TypeCache.ScanAssembly (215ms)
 				ResolveRequiredComponents (3ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (580ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (257ms)
-				ProcessInitializeOnLoadMethodAttributes (183ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 20.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2624 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (121.8 KB). Loaded Objects now: 3131.
-Memory consumption went from 0.50 GB to 0.50 GB.
-Total: 6.803300 ms (FindLiveObjects: 0.282500 ms CreateObjectMapping: 0.066000 ms MarkObjects: 6.299800 ms  DeleteObjects: 0.153000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
-  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
-  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
-  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
-  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
-  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
-  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
-  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
-  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
-  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
-  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
-  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
-  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
-  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
-  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
-  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
-  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
-  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
-  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
-  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
-  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
-  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
-  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
-  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
-  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
-  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
-  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
-  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
-  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
-  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
-  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
-  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
-  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
-  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
-  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
-  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
-  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
-  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
-  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
-  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
-  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
-  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
-  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 699.471041 seconds.
-  path: Assets/Course Library/_Source_Files/Textures/SimpleTown.png
-  artifactKey: Guid(6495ebfa6e1229c4581a3963c2c50f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/Textures/SimpleTown.png using Guid(6495ebfa6e1229c4581a3963c2c50f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f7e85a1e94af2cfd24a5db3e6e092e') in 0.075990 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.041462 seconds.
-  path: Assets/Course Library/_Source_Files/Materials/SimpleTownLite_Road.mat
-  artifactKey: Guid(2191478c1f641c245b4fe9449817a0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/Materials/SimpleTownLite_Road.mat using Guid(2191478c1f641c245b4fe9449817a0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593c672572c9bb8fdfa065f009cedcb7') in 0.057765 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Visual Effects/Effects/AntiAliasing/SMAA/Resources/SMAA.cginc
-  artifactKey: Guid(74597699f47d8ae458dca68f79f1b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Effects/Effects/AntiAliasing/SMAA/Resources/SMAA.cginc using Guid(74597699f47d8ae458dca68f79f1b21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612cd1c009bdc2068b222e4ea2e52502') in 0.001750 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Asset Pack/Misc/SkyDome.fbx
-  artifactKey: Guid(1340630fb7a3267499177be33f281f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Misc/SkyDome.fbx using Guid(1340630fb7a3267499177be33f281f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2457764d40db8bbbd83833faaa305b97') in 0.062586 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Course Library/_Source_Files/FBX/SM_Rock_Boulder_01.fbx
-  artifactKey: Guid(3bf1797a1e906ed419074e5bd4b7ff3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/FBX/SM_Rock_Boulder_01.fbx using Guid(3bf1797a1e906ed419074e5bd4b7ff3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bffb39e535ccdd61eae7223b64891b') in 0.021937 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset
-  artifactKey: Guid(33a3cd2cec8cc3b4390d78422e12bfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset using Guid(33a3cd2cec8cc3b4390d78422e12bfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa2d8a646c664e65ca6b46b73eba787') in 0.005008 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Visual Effects/Effects/DepthOfField/Helpers/SphereShape.psd
-  artifactKey: Guid(fc00ec05a89da4ff695a4273715cd5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Effects/Effects/DepthOfField/Helpers/SphereShape.psd using Guid(fc00ec05a89da4ff695a4273715cd5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3f139d47bbbbdf15b9d62508248b6c') in 0.011239 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset Pack/Materials/SimpleTown.mat
-  artifactKey: Guid(e75d4cafc3944844583ed92f504206ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Materials/SimpleTown.mat using Guid(e75d4cafc3944844583ed92f504206ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef950ecc4169366d19ffeb0842f59737') in 0.013853 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Course Library/_Source_Files/FBX/SM_Prop_Barrel_02.fbx
-  artifactKey: Guid(bc0208005b6890d44994050c677eb13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/FBX/SM_Prop_Barrel_02.fbx using Guid(bc0208005b6890d44994050c677eb13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45786a004a9cae06803c29393997e20a') in 0.017592 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_01.fbx
-  artifactKey: Guid(6a1c3c31ad20ee24c837e6aad1e22d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_01.fbx using Guid(6a1c3c31ad20ee24c837e6aad1e22d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673ab24bf9fb7fdbe054ea58d2f59442') in 0.018909 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Course Library/_Source_Files/FBX/SK_Veh_Armor_Car_01.fbx
-  artifactKey: Guid(93b9de2c4710d6b4e9ac38987a064d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/FBX/SK_Veh_Armor_Car_01.fbx using Guid(93b9de2c4710d6b4e9ac38987a064d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16970acfb9f64d810d7d1563842a3625') in 0.061927 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Course Library/Sky/SkyDome.prefab
-  artifactKey: Guid(51a084e4035b24e76997744a50c711d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Sky/SkyDome.prefab using Guid(51a084e4035b24e76997744a50c711d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7402f3689a32bcc28f0150fcf52ab75d') in 0.038071 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.255948 seconds.
-  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Raised_Track_Slope_Start_Red.prefab
-  artifactKey: Guid(d421474f42d2b8d4887e2b1a69745b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Raised_Track_Slope_Start_Red.prefab using Guid(d421474f42d2b8d4887e2b1a69745b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66888ac3cdf9713e3c2f71882d7285a') in 0.010755 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Asset Pack/Models/SR_Env_Raised_Track_Slope_Start_Yellow.fbx
-  artifactKey: Guid(1e98fdf0d16fb0e4ea3d405e057e7f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Env_Raised_Track_Slope_Start_Yellow.fbx using Guid(1e98fdf0d16fb0e4ea3d405e057e7f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d686dea10008d566591b21a7d0950a5') in 0.013013 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Raised_Track_Slope_Straight_Red.prefab
-  artifactKey: Guid(4f5232dd76feb984294232d2a618a1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Raised_Track_Slope_Straight_Red.prefab using Guid(4f5232dd76feb984294232d2a618a1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ab5f9c7e39d34b59fa61f44a167b34') in 0.013163 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Asset Pack/Models/SR_Env_Raised_Track_Slope_Straight_Blue.fbx
-  artifactKey: Guid(50e80e9c9e5e3f2459537d143c27d5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Env_Raised_Track_Slope_Straight_Blue.fbx using Guid(50e80e9c9e5e3f2459537d143c27d5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a13f287c1948ddf667173cc41421440') in 0.011751 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Raised_Track_Slope_Straight_Grey.prefab
-  artifactKey: Guid(29e8818ac5ba4e340b3bb2bad1063bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Raised_Track_Slope_Straight_Grey.prefab using Guid(29e8818ac5ba4e340b3bb2bad1063bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e78f041f228e4db4ae9cbd6489e0d9') in 0.010282 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Raised_Track_Slope_Straight_Blue.prefab
-  artifactKey: Guid(d707c7a11b4e21440b14aee1061e6a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Raised_Track_Slope_Straight_Blue.prefab using Guid(d707c7a11b4e21440b14aee1061e6a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7c373d0e49d81db4d78ab54b01fdfe') in 0.011535 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.347731 seconds.
-  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_SlopeCurve.prefab
-  artifactKey: Guid(8c03ebf19a091aa44bdfa91d00e97fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_SlopeCurve.prefab using Guid(8c03ebf19a091aa44bdfa91d00e97fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705831bd9d6b0d114c41ca89aaf9dbb2') in 0.010815 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 240.605161 seconds.
-  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_SlopeCurve.prefab
-  artifactKey: Guid(8c03ebf19a091aa44bdfa91d00e97fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_SlopeCurve.prefab using Guid(8c03ebf19a091aa44bdfa91d00e97fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f55320b96d48956052f432b7e5e05b') in 0.013296 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 219.002179 seconds.
-  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_SlopeCurve.prefab
-  artifactKey: Guid(8c03ebf19a091aa44bdfa91d00e97fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_SlopeCurve.prefab using Guid(8c03ebf19a091aa44bdfa91d00e97fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9c92798c565a4898e1186c37e5c217') in 0.011114 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 27.715940 seconds.
-  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_SlopeCurve.prefab
-  artifactKey: Guid(8c03ebf19a091aa44bdfa91d00e97fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_SlopeCurve.prefab using Guid(8c03ebf19a091aa44bdfa91d00e97fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d82050d8666d56159cc85c9b376a8d') in 0.011739 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.121 seconds
-Refreshing native plugins compatible for Editor in 17.15 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.045 seconds
-Domain Reload Profiling:
-	ReloadAssembly (591ms)
-		BeginReloadAssembly (512ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		LoadAllAssembliesAndSetupDomain (526ms)
-			LoadAssemblies (335ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
-				TypeCache.Initialize (241ms)
-					TypeCache.ScanAssembly (235ms)
-				ResolveRequiredComponents (3ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (484ms)
+			SetupLoadedEditorAssemblies (494ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (37ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (77ms)
+				BeforeProcessingInitializeOnLoad (72ms)
 				ProcessInitializeOnLoadAttributes (221ms)
-				ProcessInitializeOnLoadMethodAttributes (135ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadMethodAttributes (149ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 13.14 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 16.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2624 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (121.9 KB). Loaded Objects now: 3169.
+Unloading 2646 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (162.0 KB). Loaded Objects now: 3110.
 Memory consumption went from 0.50 GB to 0.50 GB.
-Total: 5.846700 ms (FindLiveObjects: 0.230600 ms CreateObjectMapping: 0.068900 ms MarkObjects: 5.441900 ms  DeleteObjects: 0.104400 ms)
+Total: 6.761700 ms (FindLiveObjects: 0.371400 ms CreateObjectMapping: 0.086000 ms MarkObjects: 6.059500 ms  DeleteObjects: 0.243100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 431472.875501 seconds.
+  path: Assets/Scenes/Scene 1.3 (Oval Configuration).unity
+  artifactKey: Guid(959dcdc54654ecf42ac80d008c816cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.3 (Oval Configuration).unity using Guid(959dcdc54654ecf42ac80d008c816cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b385cd37bfe62bf6c6a2d30328d964') in 0.002608 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 413.704065 seconds.
+  path: Assets/Scenes/Scene 1.1 (Long Configuration).unity
+  artifactKey: Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.1 (Long Configuration).unity using Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e426bf3015826996f3ae72719a52c132') in 0.000938 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 51.677374 seconds.
+  path: Assets/Scenes/Scene 1.2 (Short Configuration).unity
+  artifactKey: Guid(6174a2d6b1991c44fa8c057a667c8248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.2 (Short Configuration).unity using Guid(6174a2d6b1991c44fa8c057a667c8248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39b39dc6c33c24a6ef6bc084dbaa7a1') in 0.000773 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 162.138986 seconds.
+  path: Assets/Scenes/Scene 1.1 (Long Configuration).unity
+  artifactKey: Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.1 (Long Configuration).unity using Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed182ca414b94a8ba54950fa89882976') in 0.001219 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 134.323663 seconds.
+  path: Assets/Scenes/Scene 1.2 (Short Configuration).unity
+  artifactKey: Guid(6174a2d6b1991c44fa8c057a667c8248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.2 (Short Configuration).unity using Guid(6174a2d6b1991c44fa8c057a667c8248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56dae047dc7df5ceef91589cdb6d82cd') in 0.000622 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.091220 seconds.
+  path: Assets/Scenes/Scene 1.1 (Long Configuration).unity
+  artifactKey: Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.1 (Long Configuration).unity using Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714dcb0523218081c7d3d9d12081ab40') in 0.000709 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 75.425490 seconds.
+  path: Assets/Scenes/Scene 1.4 (Rally Configuration).unity
+  artifactKey: Guid(7d2853fe72576cb4ead8bb5e814b8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.4 (Rally Configuration).unity using Guid(7d2853fe72576cb4ead8bb5e814b8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf865b5a022eb1e7165b981028654db') in 0.000788 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.425850 seconds.
+  path: Assets/Scenes/Scene 1.3 (Oval Configuration).unity
+  artifactKey: Guid(959dcdc54654ecf42ac80d008c816cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.3 (Oval Configuration).unity using Guid(959dcdc54654ecf42ac80d008c816cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c13db23c1926252b48cd7af1ef92a2') in 0.000766 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 582.289254 seconds.
+  path: Assets/Scenes/Scene 1.1 (Long Configuration).unity
+  artifactKey: Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.1 (Long Configuration).unity using Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194b38f9f0570b3ea9847b80d4383317') in 0.000763 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 534.398316 seconds.
+  path: Assets/Scenes/Scene 1.4 (Rally Configuration).unity
+  artifactKey: Guid(7d2853fe72576cb4ead8bb5e814b8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.4 (Rally Configuration).unity using Guid(7d2853fe72576cb4ead8bb5e814b8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849f97781b95a64061dce48a2736b61f') in 0.000698 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.064543 seconds.
+  path: Assets/Scenes/Scene 1.2 (Short Configuration).unity
+  artifactKey: Guid(6174a2d6b1991c44fa8c057a667c8248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.2 (Short Configuration).unity using Guid(6174a2d6b1991c44fa8c057a667c8248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167369f3687b9c18dcb51fde50443f2e') in 0.000603 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.773451 seconds.
+  path: Assets/Scenes/Scene 1.1 (Long Configuration).unity
+  artifactKey: Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.1 (Long Configuration).unity using Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e112371df8d3046dfe52f688872775f2') in 0.000608 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.262426 seconds.
+  path: Assets/Scenes/Scene 1.3 (Oval Configuration).unity
+  artifactKey: Guid(959dcdc54654ecf42ac80d008c816cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.3 (Oval Configuration).unity using Guid(959dcdc54654ecf42ac80d008c816cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c4ce45eed1dc313d95b040bfab65c3') in 0.000507 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1757.905272 seconds.
+  path: Assets/Scenes/Scene 1.3 (Oval Configuration).unity
+  artifactKey: Guid(959dcdc54654ecf42ac80d008c816cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.3 (Oval Configuration).unity using Guid(959dcdc54654ecf42ac80d008c816cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68dbd3738614247ed57ab3f406bb7982') in 0.000797 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 72.947137 seconds.
+  path: Assets/Scenes/Scene 1.3 (Oval Configuration).unity
+  artifactKey: Guid(959dcdc54654ecf42ac80d008c816cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.3 (Oval Configuration).unity using Guid(959dcdc54654ecf42ac80d008c816cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37769c2a43f73dbbb0e16509fe39bec4') in 0.000586 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 108.187208 seconds.
+  path: Assets/Scenes/Scene 1.4 (Rally Configuration).unity
+  artifactKey: Guid(7d2853fe72576cb4ead8bb5e814b8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.4 (Rally Configuration).unity using Guid(7d2853fe72576cb4ead8bb5e814b8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba7e5125c9e450b9cc1b5941b548897') in 0.000741 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 525.650074 seconds.
+  path: Assets/Scenes/Scene 1.1 (Long Configuration).unity
+  artifactKey: Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.1 (Long Configuration).unity using Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703d9a5cf9bb87912e66219653c2b545') in 0.000700 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 82.836903 seconds.
+  path: Assets/Scenes/Scene 1.3 (Oval Configuration).unity
+  artifactKey: Guid(959dcdc54654ecf42ac80d008c816cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.3 (Oval Configuration).unity using Guid(959dcdc54654ecf42ac80d008c816cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd651c4538e9fa55fa119f7c00d81ad24') in 0.000680 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1322.081271 seconds.
+  path: Assets/Scenes/Scene 1.2 (Short Configuration).unity
+  artifactKey: Guid(6174a2d6b1991c44fa8c057a667c8248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.2 (Short Configuration).unity using Guid(6174a2d6b1991c44fa8c057a667c8248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd68b707445e7b0f4bfae59410ceeaa') in 0.000717 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1028.168890 seconds.
+  path: Assets/Scenes/Scene 1.1 (Long Configuration).unity
+  artifactKey: Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.1 (Long Configuration).unity using Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5bb5abc512987b8be80f84ac9f4091') in 0.001101 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.651219 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbda0c04b5ac07aed5e192d713bf3b7') in 0.096754 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 36.363631 seconds.
+  path: Assets/Scenes/Scene 1.2 (Short Configuration).unity
+  artifactKey: Guid(6174a2d6b1991c44fa8c057a667c8248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.2 (Short Configuration).unity using Guid(6174a2d6b1991c44fa8c057a667c8248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2f25a7e17249c90b69f69620fd9d41') in 0.000937 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.750460 seconds.
+  path: Assets/Scenes/Scene 1.4 (Rally Configuration).unity
+  artifactKey: Guid(7d2853fe72576cb4ead8bb5e814b8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.4 (Rally Configuration).unity using Guid(7d2853fe72576cb4ead8bb5e814b8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4931a88ee77b21b40835b0001b577b1d') in 0.000644 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.169449 seconds.
+  path: Assets/Scenes/Scene 1.1 (Long Configuration).unity
+  artifactKey: Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.1 (Long Configuration).unity using Guid(4817021b6c78d6c4c95b28d5b1926bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3895d1141e4acc498dd0b0d9387db08') in 0.000735 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.702678 seconds.
+  path: Assets/Scripts/LapTimer.cs
+  artifactKey: Guid(f7356840173a3b44297e5f76de33692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LapTimer.cs using Guid(f7356840173a3b44297e5f76de33692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64df2a7c4fba052e0146e2ee6d63c675') in 0.000923 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.921 seconds
+Refreshing native plugins compatible for Editor in 15.65 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.479 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1239ms)
+		BeginReloadAssembly (1161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		LoadAllAssembliesAndSetupDomain (677ms)
+			LoadAssemblies (532ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+				TypeCache.Initialize (205ms)
+					TypeCache.ScanAssembly (199ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (131ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 15.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2623 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (122.9 KB). Loaded Objects now: 3114.
+Memory consumption went from 508.7 MB to 508.5 MB.
+Total: 7.179100 ms (FindLiveObjects: 0.290900 ms CreateObjectMapping: 0.075500 ms MarkObjects: 6.625600 ms  DeleteObjects: 0.185900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
-  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
-  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
-  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
-  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
-  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
-  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
-  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
-  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
-  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
-  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
-  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
-  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
-  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
-  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
-  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
-  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
-  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
-  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
-  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
-  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
-  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
-  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
-  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
-  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
-  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
-  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
-  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
-  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
-  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
-  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
-  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
-  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
-  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
-  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
-  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
-  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
-  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
-  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
-  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
-  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
-  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
-  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
-  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
-  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4188.827423 seconds.
-  path: Assets/BrokenVector/LowPolyCliffPack/Textures/Colorscheme Red.png
-  artifactKey: Guid(37f5e9544549e6a4aa1a1b40e8da7f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyCliffPack/Textures/Colorscheme Red.png using Guid(37f5e9544549e6a4aa1a1b40e8da7f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf6de5750f95ef13a02dc10b85633e0') in 0.082437 seconds 
+  Time since last request: 37.594993 seconds.
+  path: Assets/Scripts/LapTimeManager.cs
+  artifactKey: Guid(f37260e496edf7e4fb7202487f755c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LapTimeManager.cs using Guid(f37260e496edf7e4fb7202487f755c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4376d637d6cd70f7147e288ca6660c') in 0.001899 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.008 seconds
+Refreshing native plugins compatible for Editor in 13.54 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.842 seconds
+Domain Reload Profiling:
+	ReloadAssembly (498ms)
+		BeginReloadAssembly (424ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		LoadAllAssembliesAndSetupDomain (503ms)
+			LoadAssemblies (316ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+				TypeCache.Initialize (234ms)
+					TypeCache.ScanAssembly (228ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (134ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 15.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2622 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (122.7 KB). Loaded Objects now: 3117.
+Memory consumption went from 508.5 MB to 508.4 MB.
+Total: 6.122800 ms (FindLiveObjects: 0.241400 ms CreateObjectMapping: 0.071100 ms MarkObjects: 5.682000 ms  DeleteObjects: 0.127100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.012654 seconds.
-  path: Assets/Visual Effects/Effects/ScreenSpaceReflection/Resources/ScreenSpaceRaytrace.cginc
-  artifactKey: Guid(6f70a4658ebf5f947abc302c6b49a6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Effects/Effects/ScreenSpaceReflection/Resources/ScreenSpaceRaytrace.cginc using Guid(6f70a4658ebf5f947abc302c6b49a6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f02598244c4ad0dd1444fabcf4998ed') in 0.001905 seconds 
+  Time since last request: 15.309678 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(322f96808ed881d498dd44a8aa667338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(322f96808ed881d498dd44a8aa667338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e178a0c81dba2700ddebdc28f24824f') in 0.002152 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BrokenVector/LowPolyCliffPack/Textures/Colorscheme Yellow.png
-  artifactKey: Guid(66f98752347ef1e4191665f82ff6af61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyCliffPack/Textures/Colorscheme Yellow.png using Guid(66f98752347ef1e4191665f82ff6af61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b11d96216b2fe1194b3c347a4d5705') in 0.006837 seconds 
+  Time since last request: 360.525374 seconds.
+  path: Assets/Scripts/CarController.cs
+  artifactKey: Guid(60a4b91ad4d5042419f8aba886f33912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarController.cs using Guid(60a4b91ad4d5042419f8aba886f33912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e1418b6e4b5fe04626d238f88ead70') in 0.000940 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset Pack/Models/SR_Veh_MuscleCar_Blue.fbx
-  artifactKey: Guid(4922136360ac98b43a54ac98eb3e2d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Veh_MuscleCar_Blue.fbx using Guid(4922136360ac98b43a54ac98eb3e2d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ea4cfcbc09704f86d0a4e344173f3c') in 0.112874 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset Pack/Prefabs/Vehicles/SR_Veh_MuscleCar_LightBlue.prefab
-  artifactKey: Guid(8f792f0be7894c24b8b9f89034748f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Prefabs/Vehicles/SR_Veh_MuscleCar_LightBlue.prefab using Guid(8f792f0be7894c24b8b9f89034748f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5524bd165339038ccd1f162433fd9f') in 0.028363 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset Pack/Models/SR_Veh_MuscleCar_Black.fbx
-  artifactKey: Guid(e5a41e457f0820545a538179251efb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Veh_MuscleCar_Black.fbx using Guid(e5a41e457f0820545a538179251efb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6ec2f6874338528c25119200d03510') in 0.052517 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset Pack/Prefabs/Vehicles/SR_Veh_MuscleCar_Blue.prefab
-  artifactKey: Guid(af2250ca50625b44c97cd3a9a79dc626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Prefabs/Vehicles/SR_Veh_MuscleCar_Blue.prefab using Guid(af2250ca50625b44c97cd3a9a79dc626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ebf5685046fa07ad37ff9d66b67374') in 0.012982 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset Pack/Models/SR_Veh_MuscleCar_Green.fbx
-  artifactKey: Guid(bb9d7fd2617455b4faea4146603c5b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Pack/Models/SR_Veh_MuscleCar_Green.fbx using Guid(bb9d7fd2617455b4faea4146603c5b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab69b8f156b00178bf6ec65014a31cfa') in 0.045164 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 0

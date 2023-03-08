@@ -387,8 +387,6 @@
 "Assets/Day-Night Cycle/LightingPreset.cs"
 "Assets/Scripts/CarController.cs"
 "Assets/Scripts/FollowPlayer.cs"
-"Assets/Scripts/LapTimeManager.cs"
-"Assets/Scripts/LapTimer.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/Speed.cs"
 "Assets/Visual Effects/Effects/AmbientOcclusion/AmbientOcclusion.cs"

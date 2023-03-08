@@ -1,0 +1,421 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.9f1 (1cc571a6ec95) revision 1885553'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16297 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+63064
+Successfully changed project path to: C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)
+C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2268] Host "[IP] 192.168.50.219 [Port] 0 [Flags] 2 [Guid] 2273911399 [EditorId] 2273911399 [Version] 1048832 [Id] WindowsEditor(7,Not-a-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2268] Host "[IP] 192.168.50.219 [Port] 0 [Flags] 2 [Guid] 2273911399 [EditorId] 2273911399 [Version] 1048832 [Id] WindowsEditor(7,Not-a-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 33.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.9f1 (1cc571a6ec95)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8019 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011550 seconds.
+- Loaded All Assemblies, in  0.328 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 381 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.665 seconds
+Domain Reload Profiling:
+	ReloadAssembly (207ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+				TypeCache.Initialize (112ms)
+					TypeCache.ScanAssembly (110ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (616ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (473ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.637 seconds
+Refreshing native plugins compatible for Editor in 13.24 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.559 seconds
+Domain Reload Profiling:
+	ReloadAssembly (192ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		LoadAllAssembliesAndSetupDomain (439ms)
+			LoadAssemblies (286ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+				TypeCache.Initialize (182ms)
+					TypeCache.ScanAssembly (179ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 13.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2646 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (161.6 KB). Loaded Objects now: 3110.
+Memory consumption went from 0.50 GB to 0.50 GB.
+Total: 6.052100 ms (FindLiveObjects: 0.400900 ms CreateObjectMapping: 0.251900 ms MarkObjects: 5.199000 ms  DeleteObjects: 0.198700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EnumUtilities.cs: 5a21a105f58880df6c87f84e99142f1e -> 
+  custom:scripting/monoscript/fileName/INativeBanner.cs: f02486938cf8a3fab600d2aa93479dc5 -> 
+  custom:scripting/monoscript/fileName/AssemblyInfoUtilities.cs: cfb54d5f8c64068dbe110183f4c779cf -> 
+  custom:scripting/monoscript/fileName/IPlatform.cs: 7797606926422d17a325876f68b039f5 -> 
+  custom:scripting/monoscript/fileName/UiUtils.cs: 92a38366a2a31d6040f0b68e2f09cfff -> 
+  custom:scripting/monoscript/fileName/AndroidInitializationListener.cs: 0a66013131439da8021bc2252fd2fb9d -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UnsupportedPlatform.cs: 70647992ba3772ae90af74a2f80bfe61 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MetaData.cs: fcc2240d7f5939e317ba5f73924a62b0 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkJsonParser.cs: 2e9a76db394ac72bcb5c1cb07b5a3eb5 -> 
+  custom:scripting/monoscript/fileName/Advertisement.cs: 1aaf8094c25f08d67034b74a01cbe2c4 -> 
+  custom:scripting/monoscript/fileName/Banner.cs: 3e272af97a50c7297b83c105075660c2 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MiniJSON.cs: 9dd9bd3ab85495126c7877887d3a0b4e -> 9a756635ba857311c4cad4daf90aa118
+  custom:scripting/monoscript/fileName/UnityAdsShowListenerMainDispatch.cs: 1e941d5a53efb3e56adb8cf815abf8d2 -> 
+  custom:scripting/monoscript/fileName/FinishEventArgs.cs: 9c3653493570649906809987784b185d -> 
+  custom:scripting/monoscript/fileName/IBanner.cs: a4dd9caf870f19a68f872dad8602e5bd -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ShowOptions.cs: 907853a0b23687a252768e983401a2b4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkXmlParser.cs: c4d791522d8060bb36e3ca53a1e3c472 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSourceProvider.cs: cf168d41ae0339006b9d3e85924e1e18 -> 
+  custom:scripting/monoscript/fileName/Placeholder.cs: dc7dc49fb88e9c6a01026b714c085c4e -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkParser.cs: 00a2f1799285403c715675afc483a338 -> 
+  custom:scripting/monoscript/fileName/StartEventArgs.cs: 488334481efcd4238c3d93437d51344f -> 
+  custom:scripting/monoscript/fileName/IUnityLifecycleManager.cs: dc09e18ba7720d75ad974331d1cc46bb -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameIdsUi.cs: 7f9de94899f7caa856844cd5dd6bebbb -> 
+  custom:scripting/monoscript/fileName/BannerPlaceholder.cs: 47bbd045968b4accb04a83cb1c004944 -> 
+  custom:scripting/monoscript/fileName/PluginUtils.cs: 622cad900c32a75eb031e24b63abb3d9 -> 
+  custom:scripting/monoscript/fileName/BannerOptions.cs: b20fb271839b57a288ec71ce73eb696b -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkRemoteSource.cs: 4ce6c78ada45cdbd9845161fe5b527d6 -> 
+  custom:scripting/monoscript/fileName/AdsServiceEnabler.cs: 302965511998f922cc7771b61e27c203 -> 
+  custom:scripting/monoscript/fileName/AdsSettingsProvider.cs: a37b7e055955eb28e22d58c92545d483 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AdsServiceIdentifier.cs: a0c2b0ec1b0e22d4822c4f9daff3c51d -> 
+  custom:scripting/monoscript/fileName/GettingStartedUi.cs: df3891749d02f246e39cc01e02e45428 -> 
+  custom:scripting/monoscript/fileName/Color.cs: 052bd00c2f811370ae18ff5c84d60ae7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsService.cs: a80fe44f6bb90ae25095abab21494c0c -> 
+  custom:scripting/monoscript/fileName/AdsDashboardUrls.cs: 639222f61a8da5d8eabec0179d12155f -> 
+  custom:scripting/monoscript/fileName/BannerLoadOptions.cs: 5ef109474c2f91ce9db9f6dca15b8a50 -> 
+  custom:scripting/monoscript/fileName/UnityAdsInitializationListenerMainDispatch.cs: 114773e7dc48b88138ce9f5404f3c39c -> 
+  custom:scripting/monoscript/fileName/AndroidLoadListener.cs: f9da6dba1ab0cee865b8bfe528cfa243 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsShowListener.cs: cf15f2e00edeff86a072dc96142e6ae8 -> 
+  custom:scripting/monoscript/fileName/UnityLifecycleManager.cs: 778ea64b784342f7bc6183d9ebd03d04 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsLoadListener.cs: 50e8b68160e2f2538886aa4b7b61a0f8 -> 
+  custom:scripting/monoscript/fileName/RequestGameIds.cs: 1770056b730c30e9eb20371967cc7d54 -> 
+  custom:scripting/monoscript/fileName/Configuration.cs: cc24c747281f83544d6532b3b619e82e -> 
+  custom:scripting/monoscript/fileName/AdsLegacyToMediationPopup.cs: 5f7f0ffc6f9fd389bdc0a71db01a99a4 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkUrlParser.cs: d0c2ddc879b9c58053ead5206b8fd2ee -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkParser.cs: 63ea983e03422b5744f7d5ef87e509db -> 
+  custom:scripting/monoscript/fileName/Platform.cs: da80c80ab243bb84b0ec9b692f173112 -> 
+  custom:scripting/monoscript/fileName/SkAdNetworkLocalSource.cs: 24e2e363b7d610ab03d61705aa54cdc1 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/EditorTimer.cs: 481d241555bb2caea52276bc80c44dd0 -> 
+  custom:scripting/monoscript/fileName/EditorBanner.cs: da89a45a10ffa6b32542b8936dea6fa7 -> 
+  custom:scripting/monoscript/fileName/AndroidShowListener.cs: 68f60435133353c463fd4ba8612cd1d3 -> 
+  custom:scripting/monoscript/fileName/BannerBundle.cs: c2862d54b4d7ad6a7c329caf69f74522 -> 
+  custom:scripting/monoscript/fileName/INativePlatform.cs: 5877a011f50d2e3fb2124ddc38d59367 -> 
+  custom:scripting/monoscript/fileName/UiConstants.cs: d033ded79bf016572865d25f033a7fc7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AdsServiceTopMenu.cs: 4259d1e69413eee1dc15f63471a1123f -> 
+  custom:scripting/monoscript/fileName/EditorPlatform.cs: ebfc104a013cfcf421039da869bd9a12 -> 
+  custom:scripting/monoscript/fileName/IUnityAdsInitializationListener.cs: f10a0c5171fd22d7c1e94f51b88aef68 -> 
+  custom:scripting/monoscript/fileName/ApplicationQuit.cs: 693ef360f7cfde012ac34e2d78cc00f0 -> 
+  custom:scripting/monoscript/fileName/CoroutineExecutor.cs: 81b7e05520d351a5d800b16cdb1a8670 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: 7d3647bed1aa704685b5f6bdac30c970 -> 8bf60872ac2cc5d469b63c20e25f0d58
+  custom:scripting/monoscript/fileName/SkAdNetworkFileExtension.cs: ce0d5a10118b6d2ddbd380ff99aa16e0 -> 
+  custom:scripting/monoscript/fileName/UnityAdsLoadListenerMainDispatch.cs: 31f1282b5052137ed3fa7eabb52b9550 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/UnsupportedBanner.cs: 94092f492f62a479f89db73a4d75dfe6 -> 
+  custom:scripting/monoscript/fileName/ISkAdNetworkSource.cs: 2edbde09d15b4fc45971df135bdab360 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 351588.095382 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Barrier_Metal_01.prefab
+  artifactKey: Guid(d2d7501a567469e46912edad4f8b6b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Barrier_Metal_01.prefab using Guid(d2d7501a567469e46912edad4f8b6b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5265f4eabd7fe322d10fc98803d6618e') in 0.114765 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.530802 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Barrier_Tires_01.prefab
+  artifactKey: Guid(56c5d26c9bd6c5842b251616fbb3d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Barrier_Tires_01.prefab using Guid(56c5d26c9bd6c5842b251616fbb3d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79e1ffdaeb240f0f9d808c9c48a0822') in 0.014243 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.277406 seconds.
+  path: Assets/Asset Pack/Models/SR_Prop_Barrier_Tires_03.fbx
+  artifactKey: Guid(6aa6ff59c516fef4d9c37e9ae4a318db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Prop_Barrier_Tires_03.fbx using Guid(6aa6ff59c516fef4d9c37e9ae4a318db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92315f0eafc01acc22656526c7466c6') in 0.027276 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.408234 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Barrier_Tires_61.prefab
+  artifactKey: Guid(30bc925b10a097644bbe9fd6267dfb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Barrier_Tires_61.prefab using Guid(30bc925b10a097644bbe9fd6267dfb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4d0a26fc0b12d1f596e09c146e3e04') in 0.024949 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 440.357811 seconds.
+  path: Assets/Visual Effects/Effects/AntiAliasing/SMAA/Resources/SearchTex.tga
+  artifactKey: Guid(387ed7c38eb63554db846987adb98e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Effects/Effects/AntiAliasing/SMAA/Resources/SearchTex.tga using Guid(387ed7c38eb63554db846987adb98e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e0efd7961bda8dc0ec2a19bdf769e7') in 0.015296 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.066288 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerIntersection.fbx
+  artifactKey: Guid(bdd4cb6b0e591db4f9bfbc1e8ecc92e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerIntersection.fbx using Guid(bdd4cb6b0e591db4f9bfbc1e8ecc92e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bc15804ac090ce59a8ed371316c9a0') in 0.014623 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_CornerTSection.prefab
+  artifactKey: Guid(e07698c73df57fd46add02b5c9c6ab56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Environment/SR_Env_Concrete_Track_CornerTSection.prefab using Guid(e07698c73df57fd46add02b5c9c6ab56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdaf85b632287a15aedf1ff1524ee9ea') in 0.012816 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerTSection.fbx
+  artifactKey: Guid(034a8cdd28f193a4ab9a4bafd4c0c2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerTSection.fbx using Guid(034a8cdd28f193a4ab9a4bafd4c0c2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dead4c23220d395993b28463bc610cf') in 0.014582 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.647405 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Pitstop_Large.fbx
+  artifactKey: Guid(80775c22449ff84439c4ba17ff65aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Pitstop_Large.fbx using Guid(80775c22449ff84439c4ba17ff65aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0b1b39c49d0a6bea7a82b2f88fdc23') in 0.012871 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Tent_Long.fbx
+  artifactKey: Guid(7471c37f8cc22eb459ab4d10ea3267e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Tent_Long.fbx using Guid(7471c37f8cc22eb459ab4d10ea3267e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ffe3891286735068de83b4122f5cd3') in 0.012935 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Grass.fbx
+  artifactKey: Guid(cc2baef8c1c054b4da8a5091ba18e86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Grass.fbx using Guid(cc2baef8c1c054b4da8a5091ba18e86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6164a59f412abb84ca03a73e57793432') in 0.012834 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_Blank.fbx
+  artifactKey: Guid(cf7d977449942034c8e478345522f1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_Blank.fbx using Guid(cf7d977449942034c8e478345522f1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b615d4136050d43f358b003db1b240d') in 0.012307 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Sand.fbx
+  artifactKey: Guid(207ecfdc0d7d13e4a92adc3b89b862de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Sand.fbx using Guid(207ecfdc0d7d13e4a92adc3b89b862de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3487fdcf3d9388421bee2f86f1e9c46') in 0.012072 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Stands.fbx
+  artifactKey: Guid(3c797b32801a85e46b9cf1357b15491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Stands.fbx using Guid(3c797b32801a85e46b9cf1357b15491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ea2c093d64dbb89d66afcfddb9d1b0') in 0.040787 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Sand_Skids.fbx
+  artifactKey: Guid(0c5932d744a16204c89450d0b38300f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Sand_Skids.fbx using Guid(0c5932d744a16204c89450d0b38300f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704c71d387364565c3791e161960e640') in 0.012508 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Stands_Attach_Blue.fbx
+  artifactKey: Guid(101cade2de704ca4692b812b4b5961d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Stands_Attach_Blue.fbx using Guid(101cade2de704ca4692b812b4b5961d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1974d4fdf176ea396985dc15dcf03a2d') in 0.042867 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Dirt_Skids.fbx
+  artifactKey: Guid(0cbecaf6cc0cf8541919fed43da2782c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerSmooth_Dirt_Skids.fbx using Guid(0cbecaf6cc0cf8541919fed43da2782c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52abe33c29e57537d9de9f0579c4eccb') in 0.011960 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Stadium_Corner.fbx
+  artifactKey: Guid(6a1c0caa31e91f64582538b466d11083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Stadium_Corner.fbx using Guid(6a1c0caa31e91f64582538b466d11083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7237ba4dac74a7a6c3fd40fc3e6eaaa9') in 0.041624 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Stands_Attach_Grey.fbx
+  artifactKey: Guid(9f57fb0480665c84b984098fbfa23ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Stands_Attach_Grey.fbx using Guid(9f57fb0480665c84b984098fbfa23ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd697a234522cdde7389dd21f562ed843') in 0.044785 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Tent_Shop_Red.fbx
+  artifactKey: Guid(f08d1565efe02fc4281ca202404508d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Tent_Shop_Red.fbx using Guid(f08d1565efe02fc4281ca202404508d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e99311b2f49037ad1ac5d4ade710aa8') in 0.011401 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerTight_03_Skids.fbx
+  artifactKey: Guid(35125254c41b11447b9cc2585b4ae2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Env_Concrete_Track_CornerTight_03_Skids.fbx using Guid(35125254c41b11447b9cc2585b4ae2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59071793db4ded2b0bbaf882ff136c1') in 0.013814 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Pack/Models/SR_Bld_Tent_Center.fbx
+  artifactKey: Guid(d5ec2f46cc0f8cd42bb10f67718e1cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Models/SR_Bld_Tent_Center.fbx using Guid(d5ec2f46cc0f8cd42bb10f67718e1cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f363d52b784fd3466aa8837bef09f62') in 0.013102 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
