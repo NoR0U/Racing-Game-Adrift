@@ -21,6 +21,8 @@ public class UIController : MonoBehaviour
     private float lastLapTime;
     private float bestLapTime;
 
+
+
     void Update()
     {
         if(UpdateUIForPlayer == null)
@@ -47,7 +49,7 @@ public class UIController : MonoBehaviour
         if (UpdateUIForPlayer.BestLapTime != bestLapTime)
         {
             bestLapTime = UpdateUIForPlayer.BestLapTime;
-            UITextBestLapTime.text = bestLapTime < 1000000 ? $"Best: {(int)bestLapTime / 60}:{(bestLapTime) % 60:00.000} " : "Best:--/--/---";
+            UITextBestLapTime.text = bestLapTime < 1000000 ? $"Best: {(int)bestLapTime / 60}:{(bestLapTime) % 60:00.000} " : "Best:--.--.---";
         }
 
 
