@@ -14,11 +14,15 @@ public class Wheel : MonoBehaviour
     private WheelCollider wheelCollider;
     private Transform wheelTransform;
 
+
+
     void Start()
     {
         wheelCollider = GetComponentInChildren<WheelCollider>();
         wheelTransform = GetComponentInChildren<MeshRenderer>().GetComponent<Transform>();
     }
+
+
 
     void Update()
     {
@@ -26,6 +30,8 @@ public class Wheel : MonoBehaviour
         wheelTransform.position = pos;
         wheelTransform.rotation = rot;
     }
+
+
 
     private void FixedUpdate()
     {

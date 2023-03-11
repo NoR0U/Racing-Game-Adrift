@@ -391,6 +391,7 @@
 "Assets/Scripts/New Scripts/GameManager.cs"
 "Assets/Scripts/New Scripts/InputController.cs"
 "Assets/Scripts/New Scripts/Player.cs"
+"Assets/Scripts/New Scripts/UIController.cs"
 "Assets/Scripts/New Scripts/Wheel.cs"
 "Assets/Scripts/Speed.cs"
 "Assets/Visual Effects/Effects/AmbientOcclusion/AmbientOcclusion.cs"

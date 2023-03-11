@@ -11,13 +11,14 @@ public class InputController : MonoBehaviour
     public float ThrottleInput { get; private set; }
 
 
-    // Start is called before the first frame update
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+
+
     void Update()
     {
         SteerInput = Input.GetAxis(inputSteerAxis);

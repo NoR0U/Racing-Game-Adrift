@@ -18,18 +18,78 @@ public class Player : MonoBehaviour
     private Transform checkpointsParent;
     private int checkpointCount;
     private int checkpointLayer;
+    private Car carController;
+
+
 
     void Awake()
     {
         checkpointsParent = GameObject.Find("Checkpoints").transform;
         checkpointCount = checkpointsParent.childCount;
         checkpointLayer = LayerMask.NameToLayer("Checkpoint");
-//        CarController = GetComponent<CarController>();
+        carController = GetComponent<Car>();
     }
 
-    // Update is called once per frame
+
+
+    void StartLap()
+    {
+        Debug.Log("StartLap!");
+        CurrentLap++;
+        lastCheckpointPassed = 1;
+        lapTimer = Time.time;
+    }
+
+
+
+    void EndLap()
+    {
+        LastLapTime = Time.time - lapTimer;
+        BestLapTime = Mathf.Min(LastLapTime, BestLapTime);
+        Debug.Log("EndLap - LapTime was " + LastLapTime + " seconds");
+    }
+
+
+
+    void OnTriggerEnter(Collider collider)
+    {
+        if (collider.gameObject.layer != checkpointLayer)
+        {
+            return;
+        }
+
+        if (collider.gameObject.name == "1")
+        {
+            if (lastCheckpointPassed == checkpointCount)
+            {
+                EndLap();
+            }
+
+            if (CurrentLap == 0 || lastCheckpointPassed == checkpointCount)
+            {
+                StartLap();
+            }
+            return;
+        }
+
+        if (collider.gameObject.name == (lastCheckpointPassed+1).ToString())
+        {
+            lastCheckpointPassed++;
+
+        }
+    }
+
+
+
     void Update()
     {
-        if (controlType == ControlType.HumanInput) ;
+        CurrentLapTime = lapTimer > 0 ? Time.time - lapTimer : 0;
+
+
+        if (controlType == ControlType.HumanInput)
+        {
+            carController.Steer = GameManager.Instance.InputController.SteerInput;
+            carController.Throttle = GameManager.Instance.InputController.ThrottleInput;
+        }
     }
 }
