@@ -14,13 +14,15 @@ public class inputs : MonoBehaviour{
     void Update()
     {
         keyboard();
+
+        vertical = Input.GetAxis("Vertical");
+        horizontal = Input.GetAxis("Horizontal");
+        handbrake = (Input.GetAxis("Jump") != 0) ? true : false;
+        boosting = (Input.GetKey(KeyCode.LeftShift)) ? true : false;
     }
 
     public void keyboard () {
-        vertical = Input.GetAxis ("Vertical");
-        horizontal = Input.GetAxis ("Horizontal");
-        handbrake = (Input.GetAxis ("Jump") != 0) ? true : false;
-        boosting = (Input.GetKey (KeyCode.LeftShift)) ? true : false;
+        
         //if (Input.GetKey (KeyCode.LeftShift)) boosting = true;
         //else boosting = false;
 

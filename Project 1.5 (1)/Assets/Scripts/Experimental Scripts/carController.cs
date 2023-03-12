@@ -16,28 +16,37 @@ public class carController : MonoBehaviour
 
     //components:
     [HideInInspector]public inputs input;
-    public Rigidbody _rigidbody;
+    [HideInInspector]public Rigidbody _rigidbody;
 
     public float torque = 100 , maxRPM , minRPM;
     public AnimationCurve enginePower;
+    [Range(0.2f, 0.8f)] public float EngineSmoothTime;
+    [HideInInspector] public float engineRPM, engineLoad, DownForceValue, dragAmount, KPH;
+
     public float[] gears;
     public float finalDrive = 3.7f ;
     public int gearNum;
-    [Range(0.2f,0.8f)]public float EngineSmoothTime;
-    [HideInInspector]public float engineRPM , engineLoad ,DownForceValue  ,dragAmount , KPH;
-    [HideInInspector]public WheelCollider[] wheelColliders;
-    [HideInInspector]public float ForwardStifness;
-    [HideInInspector]public float SidewaysStifness;
+
+    [HideInInspector] public float ForwardStifness = 1.8f;
+    [HideInInspector] public float SidewaysStifness = 2.0f;
+
     [HideInInspector]public Transform[] wheelTransforms;
+    [HideInInspector]public WheelCollider[] wheelColliders;
 
     private Vector3 wheelPosition;
     private Quaternion wheelRotation;
+
+    [Range(2f, 10f)] public float steeringDamper;
+    [Range(0f, 10f)] public float steeringRange;
+    public float maxSteer = 30f;
+
 
     //junk
     [HideInInspector]public bool vehicleChecked = false;
     private float vertical , horizontal;
     private float finalTurnAngle , radius;
     private float wheelsRPM , acceleration , totalPower , gearChangeRate;
+    private float wheelsMaxRPM;
     private float engineLerpValue , brakePower ;
 	private WheelFrictionCurve  forwardFriction,sidewaysFriction;
     private float[] wheelSlip;
@@ -53,13 +62,10 @@ public class carController : MonoBehaviour
   
     void Update()
     {
-
         currentVelocity = _rigidbody.velocity.magnitude;
-
 
         moveCar();
         updateWheels();
-
     }
 
     /// <summary>
@@ -76,16 +82,22 @@ public class carController : MonoBehaviour
     void findValues()
     {
         print("tt");
-        foreach (Transform i in gameObject.transform){
-            if(i.transform.name == "Wheels"){
+        foreach (Transform i in gameObject.transform)
+        {
+            if(i.transform.name == "WheelColiders")
+            {
                 wheelColliders = new WheelCollider[i.transform.childCount];
-                for (int q = 0; q < i.transform.childCount; q++){
+                for (int q = 0; q < i.transform.childCount; q++)
+                {
                     wheelColliders[q] = i.transform.GetChild(q).GetComponent<WheelCollider>();
                 }    
             }
-            if(i.transform.name == "Wheels"){
+
+            if(i.transform.name == "WheelMeshes")
+            {
                 wheelTransforms = new Transform[i.transform.childCount];
-                for (int q = 0; q < i.transform.childCount; q++){
+                for (int q = 0; q < i.transform.childCount; q++)
+                {
                     wheelTransforms[q] = i.transform.GetChild(q);
                 }    
             }
@@ -102,10 +114,8 @@ public class carController : MonoBehaviour
 
     void moveCar()
     {
-
         runEngine();
         steerVehicle();
-
     }
 
     void runEngine()
@@ -116,38 +126,77 @@ public class carController : MonoBehaviour
 
         acceleration = vertical > 0 ?  vertical : wheelsRPM <= 1 ? vertical  : 0 ;
         
-        if(!isGrounded()){
+        if(!isGrounded())
+        {
             acceleration = engineRPM > 1000 ? acceleration / 2 : acceleration; 
         }
 
-
-        if(engineRPM >= maxRPM){
+        if(engineRPM >= maxRPM)
+        {
             setEngineLerp(maxRPM - 1000);
         }
-        if(!engineLerp){
+
+        if(!engineLerp)
+        {
             engineRPM = Mathf.Lerp(engineRPM,1000f + Mathf.Abs(wheelsRPM) *  finalDrive *  (gears[gearNum]) , (EngineSmoothTime * 10) * Time.deltaTime);
-            totalPower = enginePower.Evaluate(engineRPM) * (gears[gearNum] * finalDrive ) * acceleration  ;
+            totalPower = enginePower.Evaluate(engineRPM) * (gears[gearNum] * finalDrive) * acceleration  ;
         }
         
         engineLoad = Mathf.Lerp(engineLoad,vertical - ((engineRPM - 1000) / maxRPM ),(EngineSmoothTime * 10) * Time.deltaTime);
         runCar();
+
+        wheelsMaxRPM = engineRPM / (gears[gearNum] * finalDrive);
+        Debug.Log(wheelsMaxRPM);
     }
 
     void runCar()
     {
-        if(drive == driveType.rearWheelDrive){
-            for (int i = 2; i < wheelColliders.Length; i++){
-                wheelColliders[i].motorTorque = (vertical == 0) ? 0 : totalPower / (wheelColliders.Length - 2) ;
+        if(drive == driveType.rearWheelDrive)
+        {
+            for (int i = 2; i < wheelColliders.Length; i++)
+            {
+                if (wheelColliders[i].rpm <= wheelsMaxRPM)
+                {
+                    wheelColliders[i].motorTorque = (vertical == 0) ? 0 : totalPower / (wheelColliders.Length - 2);
+                }
+
+                else
+                {
+                    wheelColliders[i].motorTorque = 0;
+                }
             }
         }
-        else if(drive == driveType.frontWheelDrive){
-            for (int i = 0; i < wheelColliders.Length - 2; i++){
-                wheelColliders[i].motorTorque =  (vertical == 0) ? 0 : totalPower / (wheelColliders.Length - 2) ;
+
+        else if(drive == driveType.frontWheelDrive)
+        {
+            for (int i = 0; i < wheelColliders.Length - 2; i++)
+            {
+                if (wheelColliders[i].rpm <= wheelsMaxRPM)
+                {
+                    wheelColliders[i].motorTorque = (vertical == 0) ? 0 : totalPower / (wheelColliders.Length - 2);
+                }
+
+                else
+                {
+                    wheelColliders[i].motorTorque = 0;
+                }
             }
         }
-        else{
-            for (int i = 0; i < wheelColliders.Length; i++){
-                wheelColliders[i].motorTorque =  (vertical == 0) ? 0 : totalPower / wheelColliders.Length;
+
+        else
+        {
+            for (int i = 0; i < wheelColliders.Length; i++)
+            {
+                if(wheelColliders[i].rpm <= wheelsMaxRPM)
+                {
+                    wheelColliders[i].motorTorque = (vertical == 0) ? 0 : totalPower / wheelColliders.Length;
+                }
+
+                else
+                {
+                    wheelColliders[i].motorTorque = 0;
+                }
+                    
             }
         }
 
@@ -155,7 +204,10 @@ public class carController : MonoBehaviour
         for (int i = 0; i < wheelColliders.Length; i++){
             if(KPH <= 1 && KPH >= -1 && vertical == 0){
                 brakePower = 5;
-            } else{
+            }
+
+            else
+            {
                 if(vertical < 0 && KPH > 1 && !reverse)
                     brakePower =  (wheelSlip[i] <= 0.3f) ? brakePower + -vertical * 100 : brakePower > 0 ? brakePower  + vertical * 50 : 0 ;
                 else 
@@ -177,29 +229,36 @@ public class carController : MonoBehaviour
     {
 
         vertical = input.vertical;
-        horizontal = Mathf.Lerp(horizontal , input.horizontal , (input.horizontal != 0) ? 2 * Time.deltaTime : 3 * 2 * Time.deltaTime);
+        horizontal = Mathf.Lerp(horizontal , input.horizontal , (input.horizontal != 0) ? steeringDamper * Time.deltaTime : 3 * 2 * Time.deltaTime);
 
-        finalTurnAngle = (radius > 5 ) ? radius : 5  ;
+        finalTurnAngle = (radius > steeringRange) ? radius : steeringRange;
 
-        if (horizontal > 0 ) {
-				//rear tracks size is set to 1.5f       wheel base has been set to 2.55f
+        wheelColliders[0].steerAngle = input.horizontal * maxSteer;
+        wheelColliders[1].steerAngle = input.horizontal * maxSteer;
+        /*if (horizontal > 0 )
+        {
+            //rear tracks size is set to 1.5f       wheel base has been set to 2.55f
             wheelColliders[0].steerAngle = Mathf.Rad2Deg * Mathf.Atan(2.55f / (finalTurnAngle - (1.5f / 2))) * horizontal;
             wheelColliders[1].steerAngle = Mathf.Rad2Deg * Mathf.Atan(2.55f / (finalTurnAngle + (1.5f / 2))) * horizontal;
-        } else if (horizontal < 0 ) {                                                          
+        }
+
+        else if (horizontal < 0 )
+        {                                                          
             wheelColliders[0].steerAngle = Mathf.Rad2Deg * Mathf.Atan(2.55f / (finalTurnAngle + (1.5f / 2))) * horizontal;
             wheelColliders[1].steerAngle = Mathf.Rad2Deg * Mathf.Atan(2.55f / (finalTurnAngle - (1.5f / 2))) * horizontal;
 			//transform.Rotate(Vector3.up * steerHelping);
-
-        } else {
-            wheelColliders[0].steerAngle =0;
-            wheelColliders[1].steerAngle =0;
         }
 
-    }
+        else
+        {
+            wheelColliders[0].steerAngle = 0;
+            wheelColliders[1].steerAngle = 0;
+        }*/
 
+    }
+    
     void updateWheels()
     {
-
         for (int i = 0; i < wheelColliders.Length; i++) {
             wheelColliders[i].GetWorldPose(out wheelPosition, out wheelRotation);
             wheelTransforms[i].transform.rotation = wheelRotation;
@@ -218,11 +277,14 @@ public class carController : MonoBehaviour
         }
         wheelsRPM = (R != 0) ? sum / R : 0;
  
-        if(wheelsRPM < 0 && !reverse ){
+        if(wheelsRPM < 0 && !reverse )
+        {
             reverse = true;
             //if (gameObject.tag != "AI") manager.changeGear();
         }
-        else if(wheelsRPM > 0 && reverse){
+
+        else if(wheelsRPM > 0 && reverse)
+        {
             reverse = false;
             //if (gameObject.tag != "AI") manager.changeGear();
         }
@@ -252,7 +314,8 @@ public class carController : MonoBehaviour
             return false;
     }
 
-    void manual(){
+    void manual()
+    {
 
         if((Input.GetAxis("Fire2") == 1  ) && gearNum <= gears.Length && Time.time >= gearChangeRate )
         {
@@ -275,11 +338,11 @@ public class carController : MonoBehaviour
 
     void friction()
     {
-    
         WheelHit hit;
         float sum = 0;
         float[] sidewaysSlip = new float[wheelColliders.Length];
-        for (int i = 0; i < wheelColliders.Length ; i++){
+        for (int i = 0; i < wheelColliders.Length ; i++)
+        {
             if(wheelColliders[i].GetGroundHit(out hit) && i >= 2 )
             {
                 forwardFriction = wheelColliders[i].forwardFriction;
@@ -293,14 +356,13 @@ public class carController : MonoBehaviour
                 grounded = true;
 
                 sum += Mathf.Abs(hit.sidewaysSlip);
-
             }
+
             else grounded = false;
 
             wheelSlip[i] = Mathf.Abs( hit.forwardSlip ) + Mathf.Abs(hit.sidewaysSlip) ;
             sidewaysSlip[i] = Mathf.Abs(hit.sidewaysSlip);
-
-
+           
         }
 
         sum /= wheelColliders.Length - 2 ;
@@ -338,8 +400,6 @@ public class carController : MonoBehaviour
         pos+=25f;
 
         GUI.Label(new Rect(20, pos, 200, 20),"Gforce: " + Gforce.ToString("0"));
-        pos+=25f;
-        
+        pos+=25f; 
     }
-
 }
