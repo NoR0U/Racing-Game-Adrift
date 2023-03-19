@@ -27,7 +27,4 @@ public class inputs : MonoBehaviour{
         //else boosting = false;
 
     }
-
-
-
 }

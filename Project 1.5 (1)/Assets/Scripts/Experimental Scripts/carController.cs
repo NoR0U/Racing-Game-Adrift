@@ -45,12 +45,12 @@ public class carController : MonoBehaviour
     [HideInInspector]public bool vehicleChecked = false;
     private float vertical , horizontal;
     private float finalTurnAngle , radius;
-    private float wheelsRPM , acceleration , totalPower , gearChangeRate;
+    public float wheelsRPM , acceleration , totalPower , gearChangeRate;
     private float wheelsMaxRPM;
     private float engineLerpValue , brakePower ;
 	private WheelFrictionCurve  forwardFriction,sidewaysFriction;
     private float[] wheelSlip;
-    private bool engineLerp;
+    public bool engineLerp;
     private bool reverse , grounded;
     
     public float currentVelocity , lastFrameVelocity , Gforce;
