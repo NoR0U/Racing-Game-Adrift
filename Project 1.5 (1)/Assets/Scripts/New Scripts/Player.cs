@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     private Transform checkpointsParent;
     private int checkpointCount;
     private int checkpointLayer;
-    private Car carController;
+    private CarController2 carController;
 
 
 
@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
         checkpointsParent = GameObject.Find("Checkpoints").transform;
         checkpointCount = checkpointsParent.childCount;
         checkpointLayer = LayerMask.NameToLayer("Checkpoint");
-        carController = GetComponent<Car>();
+        carController = GetComponent<CarController2>();
     }
 
 

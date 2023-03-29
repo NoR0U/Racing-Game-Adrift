@@ -11,14 +11,6 @@ public class InputController : MonoBehaviour
     public float ThrottleInput { get; private set; }
 
 
-
-    void Start()
-    {
-        
-    }
-
-
-
     void Update()
     {
         SteerInput = Input.GetAxis(inputSteerAxis);

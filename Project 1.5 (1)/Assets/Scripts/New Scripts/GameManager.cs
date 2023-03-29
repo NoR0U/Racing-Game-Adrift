@@ -14,11 +14,4 @@ public class GameManager : MonoBehaviour
         Instance = this;
         InputController = GetComponentInChildren<InputController>();
     }
-
-
-
-    void Update()
-    {
-        
-    }
 }
