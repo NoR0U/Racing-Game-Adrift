@@ -6,7 +6,7 @@ public class engineAudio : MonoBehaviour
 {
 
     //eq
-    public SEF_Equalizer eq;
+    public Equalizer eq;
 
     //
     private inputs IN;
@@ -56,7 +56,7 @@ public class engineAudio : MonoBehaviour
         if (Turbo != null) m_Turbo = SetUpEngineAudioSource(Turbo);
 
 
-        eq = gameObject.AddComponent<SEF_Equalizer>();
+        eq = gameObject.AddComponent<Equalizer>();
         m_CarController = transform.root.gameObject.GetComponent<carController>();
         IN = transform.root.gameObject.GetComponent<inputs>();
 
