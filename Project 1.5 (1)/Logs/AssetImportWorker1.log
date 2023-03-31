@@ -1,0 +1,357 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.9f1 (1cc571a6ec95) revision 1885553'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16297 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54287
+Successfully changed project path to: C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)
+C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13300] Host "[IP] 192.168.50.220 [Port] 0 [Flags] 2 [Guid] 1126322154 [EditorId] 1126322154 [Version] 1048832 [Id] WindowsEditor(7,Not-a-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13300] Host "[IP] 192.168.50.220 [Port] 0 [Flags] 2 [Guid] 1126322154 [EditorId] 1126322154 [Version] 1048832 [Id] WindowsEditor(7,Not-a-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 32.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.9f1 (1cc571a6ec95)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8019 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016467 seconds.
+- Loaded All Assemblies, in  0.355 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 440 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.754 seconds
+Domain Reload Profiling:
+	ReloadAssembly (216ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (126ms)
+				TypeCache.Initialize (126ms)
+					TypeCache.ScanAssembly (124ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (694ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (547ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file data-00000222404A4030 doesn't match image C:\Users\jselm\Documents\GitHub\Racing-Game-V1\Project 1.5 (1)\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.765 seconds
+Refreshing native plugins compatible for Editor in 19.00 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling:
+	ReloadAssembly (245ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		LoadAllAssembliesAndSetupDomain (513ms)
+			LoadAssemblies (348ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+				TypeCache.Initialize (203ms)
+					TypeCache.ScanAssembly (199ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (473ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 15.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2672 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (162.2 KB). Loaded Objects now: 3138.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 6.471600 ms (FindLiveObjects: 0.341300 ms CreateObjectMapping: 0.079900 ms MarkObjects: 5.814900 ms  DeleteObjects: 0.233900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13209.046199 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Arch_Blue.prefab
+  artifactKey: Guid(ca457a132a42f17458e1f05307d33e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Arch_Blue.prefab using Guid(ca457a132a42f17458e1f05307d33e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7104ea0c7b678bc43fc36f805fbe2cc6') in 0.105449 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_CarryCart.prefab
+  artifactKey: Guid(669d89e28dfc0e84fb1cf40e9177bc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_CarryCart.prefab using Guid(669d89e28dfc0e84fb1cf40e9177bc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2013ff80c1fc5605d7a3fdc99703b3de') in 0.014212 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Camera.prefab
+  artifactKey: Guid(f3d27d45f96de9648aff57217e1b65a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Camera.prefab using Guid(f3d27d45f96de9648aff57217e1b65a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e291b8c1111a594aa91f622dba5471d') in 0.014420 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.350228 seconds.
+  path: Assets/Asset Pack/Prefabs/Obstacles/Prop_Spool_02.prefab
+  artifactKey: Guid(3daef342e8f3f9548b04424eac7d4d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Obstacles/Prop_Spool_02.prefab using Guid(3daef342e8f3f9548b04424eac7d4d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48daed7dbd5ce94957d42314ab5c8ef1') in 0.033066 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.204222 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_DirtPile_01.prefab
+  artifactKey: Guid(47521c2fbc43b084ea447002f39e8583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_DirtPile_01.prefab using Guid(47521c2fbc43b084ea447002f39e8583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b79691b8163f9d7c0445d825c1b43a') in 0.014631 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_DirtPile_03.prefab
+  artifactKey: Guid(9fe165417711e104ab69bc4837eee257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_DirtPile_03.prefab using Guid(9fe165417711e104ab69bc4837eee257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcc83a22a8967ad1413843186da76a9') in 0.060939 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Flag_String_02.prefab
+  artifactKey: Guid(925fcce60478d5341a4f8a941312d37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Flag_String_02.prefab using Guid(925fcce60478d5341a4f8a941312d37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2700e7cc2c5ced2c654d322424a5a1') in 0.010975 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Jumbotron.prefab
+  artifactKey: Guid(a0ccdc02a9bf21645b8201f6b89d86af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Jumbotron.prefab using Guid(a0ccdc02a9bf21645b8201f6b89d86af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33693cc264312ededbf6efec8e51b6d') in 0.073917 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Ramp_Dirt_02.prefab
+  artifactKey: Guid(9a7aae0fa00a6cf4e8fabcbeb17e4fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Ramp_Dirt_02.prefab using Guid(9a7aae0fa00a6cf4e8fabcbeb17e4fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae7a33ac862700e95c74c5b3e1eb69a') in 0.045217 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Ramp_Dirt_01.prefab
+  artifactKey: Guid(640e24b2f25ff1245952a71a17efbdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Ramp_Dirt_01.prefab using Guid(640e24b2f25ff1245952a71a17efbdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41de24c88c5ba0fa6f987298219dcfca') in 0.013682 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Flag_04.prefab
+  artifactKey: Guid(74988170f43535445ad119cd60dc0ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Flag_04.prefab using Guid(74988170f43535445ad119cd60dc0ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b8ec447bdfc36eaf39013ded56c8a4') in 0.014616 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Platform.prefab
+  artifactKey: Guid(821d346210bfef34a879204b018c74ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Platform.prefab using Guid(821d346210bfef34a879204b018c74ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5481f788ffc528474ffcfe22772a5649') in 0.020960 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Pitstop_Pole.prefab
+  artifactKey: Guid(ec6768a51afd3ce4b8e1e6e267fea721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Pitstop_Pole.prefab using Guid(ec6768a51afd3ce4b8e1e6e267fea721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d63037d769906a15124ce394905bea') in 0.014563 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Flag_String_03.prefab
+  artifactKey: Guid(6d54da0ae524aa243b6b7ab866d357dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Flag_String_03.prefab using Guid(6d54da0ae524aa243b6b7ab866d357dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2453ba5b5b67332862b5ad719a206e29') in 0.030688 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.063782 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Ramp_Metal.prefab
+  artifactKey: Guid(94b1f69ec70cbf34cba1b3bfa6d420e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Ramp_Metal.prefab using Guid(94b1f69ec70cbf34cba1b3bfa6d420e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63877f07b45e590bbd857b625541a8c0') in 0.010843 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Ramp_Wooden_02.prefab
+  artifactKey: Guid(eb65d837daaa29849988c7cbc0ae1819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Ramp_Wooden_02.prefab using Guid(eb65d837daaa29849988c7cbc0ae1819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bc86085c5249fcdb31738c5f60fb99') in 0.011038 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Sign_Checker.prefab
+  artifactKey: Guid(de6e9e5444cc770448047798d3c893f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Sign_Checker.prefab using Guid(de6e9e5444cc770448047798d3c893f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56e24f373a640f8c3dae4ddfe938a5a') in 0.012629 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.032725 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Starting_Sign.prefab
+  artifactKey: Guid(0633d54072cf27d48b9dedf4963e01d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Starting_Sign.prefab using Guid(0633d54072cf27d48b9dedf4963e01d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6665aa4832dbee6e3c37f10c5efe08') in 0.009669 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_Strip_01.prefab
+  artifactKey: Guid(01f761c62bd7dd64398341df5bfeb6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_Strip_01.prefab using Guid(01f761c62bd7dd64398341df5bfeb6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003a487582e73bd07e5a08b5fb4b5416') in 0.012167 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.358843 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_TirePile_01.prefab
+  artifactKey: Guid(cb0b6f12e356a164d8f7bab33ac8c466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_TirePile_01.prefab using Guid(cb0b6f12e356a164d8f7bab33ac8c466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1d4a3acb03c5889abd6e99b65474da') in 0.016763 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.032741 seconds.
+  path: Assets/Asset Pack/Prefabs/Props/SR_Prop_TV_Cabinet.prefab
+  artifactKey: Guid(2c49b604f6c52444fb6417276b0aa98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Pack/Prefabs/Props/SR_Prop_TV_Cabinet.prefab using Guid(2c49b604f6c52444fb6417276b0aa98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952beaa3f98398626d0fb2f94f6bd168') in 0.013834 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
