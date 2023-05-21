@@ -83,4 +83,19 @@ public class CarController : MonoBehaviour
         Accelerate();
         UpdateWheelPoses();
     }
+
+    void OnGUI()
+    {
+
+        float pos = 50;
+
+        GUI.Label(new Rect(20, pos, 200, 20), "Vertical Input: " + verticalInput.ToString("0"));
+        pos += 25f;
+
+        GUI.Label(new Rect(20, pos, 200, 20), "Motor Tourqe: " + WheelColider_FL.motorTorque.ToString("0"));
+        pos += 25f;
+
+        GUI.Label(new Rect(20, pos, 200, 20), "Motor Force: " + motorForce.ToString("0"));
+        pos += 25f;
+    }
 }

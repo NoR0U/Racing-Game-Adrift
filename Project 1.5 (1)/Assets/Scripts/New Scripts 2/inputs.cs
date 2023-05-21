@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class inputs : MonoBehaviour{
+public class inputs : MonoBehaviour
+{
 
    
-    [HideInInspector]public float vertical;
-    [HideInInspector]public float horizontal;
+    public float vertical;
+    public float horizontal;
     [HideInInspector]public bool handbrake;
     [HideInInspector]public bool boosting;
 
@@ -21,7 +22,8 @@ public class inputs : MonoBehaviour{
         boosting = (Input.GetKey(KeyCode.LeftShift)) ? true : false;
     }
 
-    public void keyboard () {
+    public void keyboard ()
+    {
         
         //if (Input.GetKey (KeyCode.LeftShift)) boosting = true;
         //else boosting = false;

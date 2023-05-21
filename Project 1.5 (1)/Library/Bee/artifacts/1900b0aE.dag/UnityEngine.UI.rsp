@@ -172,6 +172,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
