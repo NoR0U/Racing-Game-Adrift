@@ -22,7 +22,11 @@ public class CarController2 : MonoBehaviour
         _rigidbody.centerOfMass = centerOfMass.localPosition;
     }
 
-
+    void OnEnable()
+    {
+        WheelCollider WheelColliders = GetComponentInChildren<WheelCollider>();
+        //WheelColliders.ConfigureVehicleSubsteps(1000 speedThreshold, 20 . stepsBelowThreshold, 20 . stepsAboveThreshold); //(1000,20,20) = substeps fixed in 20
+    }
 
     void Update()
     {

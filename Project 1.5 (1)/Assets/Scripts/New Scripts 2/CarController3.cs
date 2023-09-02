@@ -54,6 +54,9 @@ public class CarController3 : MonoBehaviour
     
     public float currentVelocity , lastFrameVelocity , Gforce;
 
+    public float slip;
+    public float maxSlip;
+
     void Start()
     {
         findValues();
@@ -361,12 +364,21 @@ public class CarController3 : MonoBehaviour
 
             wheelSlip[i] = Mathf.Abs( hit.forwardSlip ) + Mathf.Abs(hit.sidewaysSlip) ;
             sidewaysSlip[i] = Mathf.Abs(hit.sidewaysSlip);
-           
+
+            slip = slip + wheelSlip[i];
+
+            
+        }
+
+        slip = slip / 4;
+
+        if (slip > maxSlip)
+        {
+            maxSlip = slip;
         }
 
         sum /= wheelColliders.Length - 2 ;
-        radius = (KPH > 60) ?  4 + (sum * -25) + KPH / 8 : 4;
-        
+        radius = (KPH > 60) ?  4 + (sum * -25) + KPH / 8 : 4;        
     }
 
     void OnGUI()

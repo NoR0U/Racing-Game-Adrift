@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SimcadeVehicleController : MonoBehaviour
-{
+{ 
         [Header("Suspension")]
         public float springForce = 30000f;
         public float springDamper = 200f;
@@ -70,7 +70,7 @@ public class SimcadeVehicleController : MonoBehaviour
 
         void Awake()
         {
-            //GameObject SkidMarkController_Self = Instantiate(SkidMarkController);
+            GameObject SkidMarkController_Self = Instantiate(SkidMarkController);
             //SkidMarkController_Self.GetComponent<Skidmarks>().SkidmarkWidth = skidmarkWidth;
 
             CanAccelarate = true;
@@ -78,13 +78,13 @@ public class SimcadeVehicleController : MonoBehaviour
             lastVelocity = Vector3.zero;
 
 
-            /*for (int i = 0; i < Wheels.Length; i++)
+            for (int i = 0; i < Wheels.Length; i++)
             {
                 HardPoints[i].localPosition = new Vector3(Wheels[i].localPosition.x, 0, Wheels[i].localPosition.z);
 
                 wheelSkids[i] = Instantiate(WheelSkid, Wheels[i].GetChild(0)).GetComponent<WheelSkid>();
                 setWheelSkidvalues_Start(i, SkidMarkController_Self.GetComponent<Skidmarks>(), wheelRadius);
-            }*/
+            }
 
             MaxSpringDistance = Mathf.Abs(Wheels[0].localPosition.y - HardPoints[0].localPosition.y) + 0.1f;
 

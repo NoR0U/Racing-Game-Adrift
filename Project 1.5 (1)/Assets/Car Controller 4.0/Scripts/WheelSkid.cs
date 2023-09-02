@@ -42,7 +42,7 @@ public class WheelSkid : MonoBehaviour
 
 			if (skidTotal > 0)
 			{
-				lastSkid = skidmarks.AddSkidMark(skidPoint, normal, intensity, lastSkid);
+				//lastSkid = skidmarks.AddSkidMark(skidPoint, normal, intensity, lastSkid);
 				if (smoke && intensity > 0.2f)
 				{
 					smoke.playSmoke();
