@@ -4,28 +4,33 @@ using UnityEngine;
 
 public class Skidmarks : MonoBehaviour
 {
-    [SerializeField]Rigidbody Rigidbody;
+    [SerializeField] Rigidbody Rigidbody;
     [SerializeField] Skidmark_Controller skidmarksController;
-
-
+    [HideInInspector] private AudioSource skidSound;
 
     WheelCollider wheelCollider;
     WheelHit wheelHitInfo;
 
+    private const float MaxSkidIntensity = 1.0f;
 
+    //[HideInInspector]
+    public float radius, skidTotal;
+    [HideInInspector]
+    public Vector3 skidPoint, normal;
 
     public float skidSpeedMin = 0.5f;
     public float skidIntensity = 20.0f;
     public float slipMultiplier = 10.0f;
     int lastSkid = -1;
     float lastFixedUpdateTime;
-
+    public float intensity;
 
 
     protected void Awake()
     {
         wheelCollider = GetComponent<WheelCollider>();
         lastFixedUpdateTime = Time.time;
+
     }
 
 
@@ -72,4 +77,5 @@ public class Skidmarks : MonoBehaviour
             lastSkid = -1;
         }
     }
+
 }

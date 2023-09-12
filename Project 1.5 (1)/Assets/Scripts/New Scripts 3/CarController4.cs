@@ -41,10 +41,7 @@ public class CarController4 : MonoBehaviour
     private Quaternion wheelRotation;
 
     public float slip;
-    //public float slipPercentage;
     public float maxSlip;
-    //public float accWheelRPM;
-    //public float simWheelRPM;
 
     private float substepsSpeedThreshold = 50f;
     private int substepsStepsBelowThreshold = 3000;
@@ -54,23 +51,23 @@ public class CarController4 : MonoBehaviour
     [Range(0f, 10f)] public float steeringRange;
     public float maxSteer = 30f;
 
+    public Light BrakeLight_L, BrakeLight_R;
+
     //assists
     public bool abs;
-
-
 
     //junk
     [HideInInspector] public bool vehicleChecked = false;
     private float vertical, horizontal;
     private float brakeInput, throttleInput;
     private float finalTurnAngle, radius;
-    private float wheelsRPM, acceleration, totalPower, gearChangeRate;
-    public float wheelsMaxRPM;
-    public float engineLerpValue, brakePower;
+    [HideInInspector] public float wheelsRPM, acceleration, totalPower, gearChangeRate;
+    [HideInInspector] public float wheelsMaxRPM;
+    [HideInInspector] public float engineLerpValue, brakePower;
     [Range(10f, 100f)] public float brakeInputPower;
     private WheelFrictionCurve forwardFriction, sidewaysFriction;
     public float[] wheelSlip;
-    private bool engineLerp;
+    [HideInInspector] public bool engineLerp;
     private bool reverse, grounded;
 
 
@@ -240,34 +237,12 @@ public class CarController4 : MonoBehaviour
     {
         for (int i = 0; i < wheelColliders.Length; i++)
         {
-            //simWheelRPM = (50 * KPH) / (3 * Mathf.PI * (wheelColliders[i].radius * 2));
-            //accWheelRPM = wheelColliders[i].rpm;
-
             slip = wheelSlip[i];
 
             if (slip > maxSlip)
             {
                 maxSlip = slip;
             }
-
-            //slipPercentage = ((accWheelRPM - simWheelRPM) / ((accWheelRPM + simWheelRPM) / 2)) * 100;
-
-            //if (slipPercentage < 0)
-            //{
-            //    slipPercentage = slipPercentage * -1;
-            //}
-
-            /*void setWheelSkidvalues_Start(int wheelNum, Skidmarks skidmarks, float radius)
-            {
-                wheelSkids[wheelNum].skidmarks = skidmarks;
-                wheelSkids[wheelNum].radius = wheelRadius;
-            }
-            void setWheelSkidvalues_Update(int wheelNum, float skidTotal, Vector3 skidPoint, Vector3 normal)
-            {
-                wheelSkids[wheelNum].skidTotal = skidTotal;
-                wheelSkids[wheelNum].skidPoint = skidPoint;
-                wheelSkids[wheelNum].normal = normal;
-            }*/
         }
 
     }
@@ -429,7 +404,19 @@ public class CarController4 : MonoBehaviour
                     brakePower = 0;
                 }
             }       
-   
+            
+            if (brakeInput < 0)
+            {
+                BrakeLight_L.enabled = true;
+                BrakeLight_R.enabled = true;
+            }
+
+            else
+            {
+                BrakeLight_L.enabled = false;
+                BrakeLight_R.enabled = false;
+            }
+
             wheelColliders[i].brakeTorque = brakePower;
 
             if (wheelColliders[i].rpm == 0 && KPH > 0 && brakeInput < 0)
@@ -475,14 +462,6 @@ public class CarController4 : MonoBehaviour
         {
             if (wheelColliders[i].GetGroundHit(out hit) && i <= 3)
             {
-                //forwardFriction = wheelColliders[i].forwardFriction;
-                //forwardFriction.stiffness = (input.handbrake) ? forwardStifnessHandbrake : forwardStifness;
-                //wheelColliders[i].forwardFriction = forwardFriction;
-
-                //sidewaysFriction = wheelColliders[i].sidewaysFriction;
-                //sidewaysFriction.stiffness = (input.handbrake) ? sidewaysStifnessHandbrake : sidewaysStifness;
-                //wheelColliders[i].sidewaysFriction = sidewaysFriction;
-
                 grounded = true;
 
                 sum += Mathf.Abs(hit.sidewaysSlip);
