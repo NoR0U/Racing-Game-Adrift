@@ -16,10 +16,10 @@ public class UIController3 : MonoBehaviour
 
     public LapTimer3 UpdateUIForPlayer;
 
-    private int currentLap = -1;
-    private float currentLapTime;
-    private float lastLapTime;
-    private float bestLapTime;
+    public int currentLap = -1;
+    public float currentLapTime;
+    public float lastLapTime;
+    public float bestLapTime;
 
 
 

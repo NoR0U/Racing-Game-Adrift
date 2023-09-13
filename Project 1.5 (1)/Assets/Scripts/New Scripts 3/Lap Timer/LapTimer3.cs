@@ -15,10 +15,10 @@ public class LapTimer3 : MonoBehaviour
     private float lapTimer;
     private int lastCheckpointPassed = 0;
 
-    private Transform checkpointsParent;
-    private int checkpointCount;
-    private int checkpointLayer;
-    private CarController3 carController;
+    public Transform checkpointsParent;
+    public int checkpointCount;
+    public int checkpointLayer;
+    private CarController4 carController;
 
 
 
@@ -27,7 +27,7 @@ public class LapTimer3 : MonoBehaviour
         checkpointsParent = GameObject.Find("Checkpoints").transform;
         checkpointCount = checkpointsParent.childCount;
         checkpointLayer = LayerMask.NameToLayer("Checkpoint");
-        carController = GetComponent<CarController3>();
+        carController = GetComponent<CarController4>();
     }
 
 
