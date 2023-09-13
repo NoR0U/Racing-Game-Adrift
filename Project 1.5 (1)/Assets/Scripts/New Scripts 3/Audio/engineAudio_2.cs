@@ -15,6 +15,8 @@ public class engineAudio_2 : MonoBehaviour
 
     [Range(0, 1)] public float startOffValue = 0.35f;
 
+
+    [Range(0, 10)] public float smoothTime;
     public float Load;
     public float loadLerpSpeed = 15;
 
@@ -92,10 +94,16 @@ public class engineAudio_2 : MonoBehaviour
         lowFade = 1 - ((1 - lowFade) * (1 - lowFade));
         //accFade = 1 - ((1 - accFade)*(1 - accFade));
         decFade = 1 - ((1 - decFade) * (1 - decFade));
-        m_LowAccel.volume = lowFade * accFade;
-        m_LowDecel.volume = lowFade * decFade;
-        m_HighAccel.volume = highFade * accFade;
-        m_HighDecel.volume = highFade * decFade;
+
+        //m_LowAccel.volume = lowFade * accFade;
+        //m_LowDecel.volume = lowFade * decFade;
+        //m_HighAccel.volume = highFade * accFade;
+        //m_HighDecel.volume = highFade * decFade;
+
+        m_LowAccel.volume = Mathf.Lerp(m_LowAccel.volume, (lowFade * accFade), smoothTime * Time.deltaTime);
+        m_LowDecel.volume = Mathf.Lerp(m_LowDecel.volume, (lowFade * decFade), smoothTime * Time.deltaTime);
+        m_HighAccel.volume = Mathf.Lerp(m_HighAccel.volume, (highFade * accFade), smoothTime * Time.deltaTime);
+        m_HighDecel.volume = Mathf.Lerp(m_HighDecel.volume, (highFade * decFade), smoothTime * Time.deltaTime);
 
 
         filter();

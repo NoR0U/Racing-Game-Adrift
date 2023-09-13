@@ -40,8 +40,13 @@ public class CarController4 : MonoBehaviour
     private Vector3 wheelPosition;
     private Quaternion wheelRotation;
 
-    public float slip;
-    public float maxSlip;
+    private float slip;
+    private float maxSlip;
+
+    private float wheelRadius;
+    private float averageRPM;
+    public float speed;
+    public float rigidbodySpeed;
 
     private float substepsSpeedThreshold = 50f;
     private int substepsStepsBelowThreshold = 3000;
@@ -70,7 +75,7 @@ public class CarController4 : MonoBehaviour
     [HideInInspector] public bool engineLerp;
     private bool reverse, grounded;
 
-
+    private float engineAccRPM;
 
 
     public float currentVelocity, lastFrameVelocity, Gforce;
@@ -90,6 +95,17 @@ public class CarController4 : MonoBehaviour
 
         moveCar();
         updateWheels();
+
+        foreach (WheelCollider wheelCollider in wheelColliders)
+        {
+            averageRPM = averageRPM + wheelCollider.rpm;
+            wheelRadius = wheelRadius + wheelCollider.radius;
+        }
+        averageRPM = averageRPM / 5;
+        wheelRadius = wheelRadius / 5;
+        speed = (averageRPM * ((wheelRadius * 2) * 100) * 0.001885f)/1.25f;
+
+        rigidbodySpeed = (Vector3.Dot(_rigidbody.velocity, transform.forward) * 2);
     }
 
 
@@ -183,9 +199,11 @@ public class CarController4 : MonoBehaviour
         }
 
         if (!engineLerp)
-        {
-            engineRPM = Mathf.Lerp(engineRPM, 1000f + Mathf.Abs(wheelsRPM) * finalDrive * (gears[gearNum]), (EngineSmoothTime * 10) * Time.deltaTime);
+        { 
+            engineRPM = Mathf.Lerp(engineRPM, 1000f + Mathf.Abs(wheelsRPM) * finalDrive * (gears[gearNum]), (EngineSmoothTime * 10) * Time.deltaTime);    
         }
+
+        
 
         engineLoad = Mathf.Lerp(engineLoad, vertical - ((engineRPM - 1000) / maxRPM), (EngineSmoothTime * 10) * Time.deltaTime);
         
@@ -211,6 +229,7 @@ public class CarController4 : MonoBehaviour
             totalPower = 0;
             engineRPM = Mathf.Lerp(engineRPM, engineLerpValue, 100 * Time.deltaTime);
             engineLerp = engineRPM <= engineLerpValue + 100 ? false : true;
+            
         }
     }
 
@@ -585,7 +604,7 @@ public class CarController4 : MonoBehaviour
         GUI.Label(new Rect(20, pos, 200, 20), "Torque: " + totalPower.ToString("0"));
         pos += 25f;
 
-        GUI.Label(new Rect(20, pos, 200, 20), "KPH: " + KPH.ToString("0"));
+        GUI.Label(new Rect(20, pos, 200, 20), "KPH: " + rigidbodySpeed.ToString("0"));
         pos += 25f;
 
         GUI.HorizontalSlider(new Rect(20, pos, 200, 20), engineLoad, 0.0F, 1.0F);
