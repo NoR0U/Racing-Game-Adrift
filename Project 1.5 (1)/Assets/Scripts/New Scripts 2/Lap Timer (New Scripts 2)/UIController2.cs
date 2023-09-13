@@ -14,7 +14,7 @@ public class UIController2 : MonoBehaviour
     public TMP_Text UITextLastLapTime;
     public TMP_Text UITextBestLapTime;
 
-    public LapTimer UpdateUIForPlayer;
+    public LapTimer2 UpdateUIForPlayer;
 
     private int currentLap = -1;
     private float currentLapTime;

@@ -22,9 +22,7 @@ public class engineAudio_2 : MonoBehaviour
     public AudioClip lowDecelClip;
     public AudioClip highAccelClip;
     public AudioClip highDecelClip;
-    [Header("Tubro Sound")]
-    public AudioClip Turbo;
-    [Range(0, 2)] public float turboVolume;
+
 
 
     [Header("Pitch")]
@@ -32,28 +30,25 @@ public class engineAudio_2 : MonoBehaviour
     [Range(.5f, 3)] public float lowPitchMin = 1f;
     [Range(2, 7)] public float lowPitchMax = 6f;
     [Range(0, 1)] public float highPitchMultiplier = 0.25f;
-    [Range(0, 1)] public float pitchMultiplier = 1f;
+    [Range(0, 1)] public float accelPitchMultiplier = 1f;
+    [Range(0, 1)] public float decelPitchMultiplier = 1f;
 
 
     private float accFade = 0;
     private float acceleration;
     private float maxRolloffDistance = 500;
-    private AudioSource m_LowAccel;
-    private AudioSource m_LowDecel;
-    private AudioSource m_HighAccel;
-    private AudioSource m_HighDecel;
-    private AudioSource m_Turbo;
+    public AudioSource m_LowAccel;
+    public AudioSource m_LowDecel;
+    public AudioSource m_HighAccel;
+    public AudioSource m_HighDecel;
 
 
     private void Start()
     {
-
-
-        m_HighAccel = SetUpEngineAudioSource(highAccelClip);
-        m_LowAccel = SetUpEngineAudioSource(lowAccelClip);
-        m_LowDecel = SetUpEngineAudioSource(lowDecelClip);
-        m_HighDecel = SetUpEngineAudioSource(highDecelClip);
-        if (Turbo != null) m_Turbo = SetUpEngineAudioSource(Turbo);
+        //m_HighAccel = SetUpEngineAudioSource(highAccelClip);
+        //m_LowAccel = SetUpEngineAudioSource(lowAccelClip);
+        //m_LowDecel = SetUpEngineAudioSource(lowDecelClip);
+        //m_HighDecel = SetUpEngineAudioSource(highDecelClip);
 
 
         eq = gameObject.AddComponent<SEF_Equalizer>();
@@ -84,10 +79,10 @@ public class engineAudio_2 : MonoBehaviour
 
         float pitch = ULerp(lowPitchMin, lowPitchMax, m_CarController.engineRPM / m_CarController.maxRPM);
         pitch = Mathf.Min(lowPitchMax, pitch);
-        m_LowAccel.pitch = pitch * pitchMultiplier;
-        m_LowDecel.pitch = pitch * pitchMultiplier;
-        m_HighAccel.pitch = pitch * highPitchMultiplier * pitchMultiplier;
-        m_HighDecel.pitch = pitch * highPitchMultiplier * pitchMultiplier;
+        m_LowAccel.pitch = pitch * accelPitchMultiplier;
+        m_LowDecel.pitch = pitch * decelPitchMultiplier;
+        m_HighAccel.pitch = pitch * highPitchMultiplier * accelPitchMultiplier;
+        m_HighDecel.pitch = pitch * highPitchMultiplier * decelPitchMultiplier;
 
         float decFade = 1 - accFade;
         float highFade = Mathf.InverseLerp(0.2f, 0.8f, m_CarController.engineRPM / m_CarController.maxRPM);

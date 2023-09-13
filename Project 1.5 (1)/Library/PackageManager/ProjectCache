@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638202963392774008
+      ticks: 638302068213171598
     m_Hash: 1027765269
   m_LockFileStatus:
     m_FilePath: C:/Users/jselm/Documents/GitHub/Racing-Game-V1/Project 1.5 (1)/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638202963392859514
+      ticks: 638302068232972146
     m_Hash: 4059104156
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -227,6 +227,8 @@ m_ResolvedPackages:
     - 5.0.0-pre.3
     - 5.0.0-pre.4
     - 5.0.0
+    - 5.0.1
+    - 5.0.2
     compatible:
     - 4.0.1
     - 5.0.0-pre.1
@@ -234,6 +236,8 @@ m_ResolvedPackages:
     - 5.0.0-pre.3
     - 5.0.0-pre.4
     - 5.0.0
+    - 5.0.1
+    - 5.0.2
     recommended: 4.0.1
     deprecated: []
   dependencies:
@@ -457,10 +461,13 @@ m_ResolvedPackages:
     - 1.1.0-pre.2
     - 1.1.1
     - 1.1.3
+    - 1.1.4
+    - 2.0.0-pre.3
     compatible:
     - 1.1.1
     - 1.1.3
-    recommended: 1.1.3
+    - 1.1.4
+    recommended: 1.1.4
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -857,18 +864,24 @@ m_ResolvedPackages:
     - 2.0.1
     - 2.0.3
     - 2.0.4
+    - 2.0.5
+    - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
+    - 2.1.0
     compatible:
     - 2.0.0
     - 2.0.1
     - 2.0.3
     - 2.0.4
+    - 2.0.5
+    - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    recommended: 2.0.4
+    - 2.1.0
+    recommended: 2.0.7
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -970,11 +983,17 @@ m_ResolvedPackages:
     - 3.0.18
     - 3.0.20
     - 3.0.21
+    - 3.0.22
+    - 3.0.24
+    - 3.0.25
     compatible:
     - 3.0.18
     - 3.0.20
     - 3.0.21
-    recommended: 3.0.21
+    - 3.0.22
+    - 3.0.24
+    - 3.0.25
+    recommended: 3.0.25
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -1052,10 +1071,14 @@ m_ResolvedPackages:
     - 2.0.16
     - 2.0.17
     - 2.0.18
+    - 2.0.20
+    - 2.0.21
     compatible:
     - 2.0.17
     - 2.0.18
-    recommended: 2.0.18
+    - 2.0.20
+    - 2.0.21
+    recommended: 2.0.21
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -1258,10 +1281,16 @@ m_ResolvedPackages:
     - 4.6.0
     - 4.7.0
     - 4.8.0
+    - 4.9.2
+    - 4.9.3
+    - 4.9.4
     compatible:
     - 4.6.0
     - 4.7.0
     - 4.8.0
+    - 4.9.2
+    - 4.9.3
+    - 4.9.4
     recommended: 4.6.0
     deprecated: []
   dependencies:
@@ -1484,6 +1513,10 @@ m_ResolvedPackages:
     - 1.3.2
     - 1.3.3
     - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1495,6 +1528,10 @@ m_ResolvedPackages:
     - 1.3.2
     - 1.3.3
     - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1667,6 +1704,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
+    - 3.2.0-pre.5
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -1675,6 +1713,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
+    - 3.2.0-pre.5
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.6
@@ -1818,16 +1857,24 @@ m_ResolvedPackages:
     - 1.7.2
     - 1.7.3
     - 1.7.4
+    - 1.7.5
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.5
     compatible:
     - 1.7.3
     - 1.7.4
+    - 1.7.5
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    recommended: 1.7.4
+    - 1.8.3
+    - 1.8.4
+    - 1.8.5
+    recommended: 1.7.5
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -1904,6 +1951,7 @@ m_ResolvedPackages:
     all:
     - 1.0.0
     - 3.0.0-exp.1
+    - 3.0.0-exp.3
     compatible:
     - 1.0.0
     recommended: 1.0.0
@@ -4036,10 +4084,14 @@ m_ResolvedPackages:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     compatible:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     recommended: 1.0.6
     deprecated: []
   dependencies: []
@@ -4182,11 +4234,15 @@ m_ResolvedPackages:
     - 1.8.1
     - 1.8.2
     - 1.9.0
+    - 1.10.1
+    - 1.11.0
     compatible:
     - 1.7.1
     - 1.8.1
     - 1.8.2
     - 1.9.0
+    - 1.10.1
+    - 1.11.0
     recommended: 1.7.1
     deprecated: []
   dependencies:
@@ -4274,11 +4330,13 @@ m_ResolvedPackages:
     - 4.4.0
     - 4.4.1
     - 4.4.2
+    - 5.0.0
     compatible:
     - 4.3.0
     - 4.4.0
     - 4.4.1
     - 4.4.2
+    - 5.0.0
     recommended: 4.3.0
     deprecated: []
   dependencies:
